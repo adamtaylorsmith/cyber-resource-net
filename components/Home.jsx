@@ -7,14 +7,10 @@ const Home = () => {
   return (
     <>
       <div className=''>
-
-        <div className="flex justify-center">
-        {/* <img src={logo} className="mb-3" height={58} width={68} /> */}
-        </div>
         
-        <h1 className="mt-0 mb-8 flex justify-center text-green-600 text-2xl font-bold">Cybersecurity Resources and Tools</h1>
+        <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold">Cybersecurity Reports, Resources and Tools</h1>
 
-        <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-lg leading-relaxed">Adam Taylor Smith 2024.</h2>
+        <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">By Adam Taylor Smith 2022-2024. <br/><br/>This collection was built while developing a home lab and studying for the following Cybersecurity technical certifications;<br/><br/><span className="font-bold">CompTIA Network+</span><br/><span className="font-bold">CompTIA Security+</span><br/><span className="font-bold">Google Cybersecurity Analyst</span></h2>
 
         <div className="flex justify-center">
           {/* <img src={bannersImg} className="p-4" /> */}

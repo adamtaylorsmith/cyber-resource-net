@@ -1,19 +1,19 @@
 import { useState } from 'react'
 
 import Home from '../components/Home'
-import Info from '../components/Info'
-import Cool from '../components/Cool'
+import Reports from '../components/Reports'
+import Tools from '../components/Tools'
 // import Footer from '../components/Footer'
-import YouTube from '../components/YouTube'
+import Resources from '../components/Resources'
 
 function App() {
   const [view, setView] = useState('Home')
 
   const myComponents = {
     'Home': <Home />,
-    'Reports': <Info />,
-    'Resources': <YouTube />,
-    'Tools': <Cool />,
+    'Reports': <Reports />,
+    'Resources': <Resources />,
+    'Tools': <Tools />,
   }
 
   // const [isNavOpen, setIsNavOpen] = useState(false);
@@ -23,16 +23,16 @@ function App() {
       <div className='bg-gray-100 w-screen h-screen mb-10'>
           <ul className="flex justify-center">
             <li>
-              <button className="text-sm md:text-md mx-4 md:mx-14  mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Home')}>Cybersecurity</button>
+              <button className="text-sm md:text-lg mx-4 md:mx-14  mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Home')}>Cybersecurity</button>
             </li>
             <li>
-              <button className="text-sm md:text-md mx-4 md:mx-14  mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Reports')}>Example Reports</button>
+              <button className="text-sm md:text-lg mx-4 md:mx-14  mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Reports')}>Reports</button>
             </li>
             <li>
-              <button className="text-sm md:text-md mx-4 md:mx-14  mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Resources')}>Online Resources</button>
+              <button className="text-sm md:text-lg mx-4 md:mx-14  mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Resources')}>Resources</button>
             </li>
             <li>
-              <button className="text-sm md:text-md mx-4 md:mx-14 mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Tools')}>Online Tools</button>
+              <button className="text-sm md:text-lg mx-4 md:mx-14 mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Tools')}>Tools</button>
             </li>
           </ul>
         <div>
