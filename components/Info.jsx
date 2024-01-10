@@ -6,7 +6,7 @@
 const Info = () => {
   return (
     <div className='bg-gray-100 h-full'>
-        <h1 className="mt-4 mb-8 flex justify-center text-green-600 text-2xl font-bold">Go Decathlon App Consists of 3 Parts</h1>
+        <h1 className="mt-0 mb-8 flex justify-center text-green-600 text-2xl font-bold">Example Cybersecurity Reports</h1>
         <h2 className="mt-6 mb-2 text-lg xl:mx-80 lg:mx-60 md:mx-16 mx-10 font-bold">1. Decathlon At Home</h2>
         <h2 className="mt-2 mb-2 text-lg xl:mx-80 lg:mx-60 md:mx-16 mx-10 leading-loose">For each decathlon sport, there is a skill test or series of skill tests. The app evaluates each performance and quantifies the results.</h2>
         <h2 className="mt-6 mb-2 text-lg xl:mx-80 lg:mx-60 md:mx-16 mx-10 font-bold">2. Connect To Friends</h2>

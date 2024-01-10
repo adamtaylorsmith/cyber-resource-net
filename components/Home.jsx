@@ -12,15 +12,9 @@ const Home = () => {
         {/* <img src={logo} className="mb-3" height={58} width={68} /> */}
         </div>
         
-        <div className="flex justify-center">
+        <h1 className="mt-0 mb-8 flex justify-center text-green-600 text-2xl font-bold">Cybersecurity Resources and Tools</h1>
 
-        </div>
-
-        <h2 className="flex justify-center mb-8 text-green-600 text-3xl font-bold">Go Decathlon App</h2>
-        <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-lg leading-relaxed">Perform a multi-sport decathlon in your own backyard at your own pace.</h2>
-        <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mt-2 text-lg leading-relaxed">Connect to friends and compare results.</h2>
-        {/* <h2 class="flex justify-center mt-2 text-lg leading-relaxed mr-64">adamtaylor@me.com</h2> */}
-
+        <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-lg leading-relaxed">Adam Taylor Smith 2024.</h2>
 
         <div className="flex justify-center">
           {/* <img src={bannersImg} className="p-4" /> */}
