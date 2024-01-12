@@ -36,6 +36,12 @@ const Resources = () => {
         <a href="https://csrc.nist.gov/glossary" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">NIST Glossary</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://www.nist.gov/cyberframework/assessment-auditing-resources" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">NIST Assessment & Auditing Resources</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">NIST Security and Privacy Controls</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.cisecurity.org/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Center For Internet Security</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
@@ -48,25 +54,79 @@ const Resources = () => {
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">CISA Known Exploited Vulnerabilities Catalog</a>
       </div>
+      
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://www.nist.gov/cyberframework/assessment-auditing-resources" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">NIST Assessment & Auditing Resources</a>
-      </div>
-      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://www.cyber.gc.ca/en/guidance/ransomware-playbook-itsm00099" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Canada Gov - Ransomware Playbook</a>
+        <a href="https://www.cyber.gc.ca/en/guidance/ransomware-playbook-itsm00099" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Canada - Ransomware Playbook</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.ready.gov/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Ready.gov</a>
       </div>
-      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">NIST Security and Privacy Controls</a>
-      </div>
+      
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300"> Active Directory Exploitation Cheat Sheet</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://github.com/Cloud-Architekt/AzureAD-Attack-Defense" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Azure Active Directory Attack and Defend</a>
       </div>
-      {/* <div className="mt-20 bg-gray-100"></div> */}
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://cyware.com/cyber-security-news-articles" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Cyware Latest Cybersecurity News and Articles</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://talosintelligence.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Cisco Talos Threat Intelligence</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://www.rfc-editor.org/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Technical and organizational documents about the Internet</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://www.cve.org/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">CVE - Identify, define, and catalog publicly disclosed cybersecurity vulnerabilities</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://www.cisecurity.org/controls/cis-controls-list" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">CIS Critical Security Controls</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">OWASP Top Ten</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://www.cryptohack.org/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Learn Cryptography</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Cisco SAFE - Secure Architecture for Everyone </a>
+      </div>
+      
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://github.com/center-for-threat-informed-defense/adversary_emulation_library" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Adversary Emulation Plans Library</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://thedfirreport.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">The DFIR Report - Intrusions and Threat Intelligence</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://unifiedkillchain.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Unified Kill Chain - Threat Modeling</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://attack.mitre.org/matrices/enterprise/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">MITRE Enterprise Matrix</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://engage.mitre.org/matrix/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">MITRE Engage Matrix</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://attack.mitre.org/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">MITRE ATT&CK knowledge base of adversary tactics and techniques</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://cwe.mitre.org/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Top Most Dangerous software and hardware weaknesses</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://phishingquiz.withgoogle.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Phishing Quiz from Google</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://www.malware-traffic-analysis.net/index.html" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Packet Capture files and Malware Samples</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://www.malware-traffic-analysis.net/index.html" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">&nbsp;</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
+        <a href="https://www.malware-traffic-analysis.net/index.html" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">&nbsp;</a>
+      </div>
+      
     </div>
   )
 }
