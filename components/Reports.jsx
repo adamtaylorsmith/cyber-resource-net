@@ -18,25 +18,25 @@ const Reports = () => {
       {/* <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">This collection was built while developing a home lab and</h2> */}
 
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={NIST_CSF} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Applying the NIST CSF (.pdf)</a>
+        <a href={NIST_CSF} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Applying the NIST CSF (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={NIST_CSF_Incident} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Incident Report Analysis using NIST CSF (.pdf)</a>
+        <a href={NIST_CSF_Incident} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Incident Report Analysis using NIST CSF (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={IncidentReport} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Incident Report Analysis (.pdf)</a>
+        <a href={IncidentReport} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Incident Report Analysis (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={AnalyzeNetworkAttack} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Analyze a Network Attack (.pdf)</a>
+        <a href={AnalyzeNetworkAttack} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Analyze a Network Attack (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={IncidentInitial} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Incident Initial Report (.pdf)</a>
+        <a href={IncidentInitial} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Incident Initial Report (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={SecurityIncident} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Security Incident Report (.pdf)</a>
+        <a href={SecurityIncident} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Security Incident Report (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={SecurityRisk} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300">Security Risk Assessment (.pdf)</a>
+        <a href={SecurityRisk} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Security Risk Assessment (.pdf)</a>
       </div>
       
       
