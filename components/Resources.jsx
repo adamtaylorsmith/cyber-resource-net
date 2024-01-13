@@ -2,6 +2,7 @@
 // import bannerImg from '../src/images/bannerWh30.png'
 // import bannersImg from '../src/images/bannerBu30.png'
 // import ReactPlayer from 'react-player'
+import Implementation from '../src/assets/CISA_NIST_Framework_Implementation_Guidance.pdf'
 
 const Resources = () => {
   return (
@@ -40,6 +41,9 @@ const Resources = () => {
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST Security and Privacy Controls</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href={Implementation} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST Framework Implementation Guide (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.cisecurity.org/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Center For Internet Security</a>
@@ -122,6 +126,12 @@ const Resources = () => {
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://docs.google.com/document/d/1QVfrtp4QywbvQ5ALupN7-gKNrXI9yrYDv6PyCwWVAYg/template/preview" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">SQL Reference Guide</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://cloudsecurityalliance.org/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Cloud Security Alliance</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://www.ncsc.gov.uk/collection/cloud/understanding-cloud-services/cloud-security-shared-responsibility-model" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">UK Cloud Security Guide</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
         <a href="https://www.malware-traffic-analysis.net/index.html" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">&nbsp;</a>

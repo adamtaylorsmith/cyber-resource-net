@@ -8,12 +8,14 @@ import AnalyzeNetworkAttack from '../src/assets/Analyze_Network_Attack.pdf'
 import IncidentInitial from '../src/assets/Incident_Initial_Report.pdf'
 import SecurityIncident from '../src/assets/Security_Incident_Report.pdf'
 import SecurityRisk from '../src/assets/Security_Risk_Assessment.pdf'
+import HomeAsset from '../src/assets/Home_Asset_Inventory.pdf'
+import RiskRegister from '../src/assets/Risk_Register_exemplar.pdf'
 
 const Reports = () => {
   return ( 
     <div className='bg-gray-100 h-full'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold">Example Cyber Reports</h1>
+      <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold">Cyber Reports</h1>
 
       {/* <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">This collection was built while developing a home lab and</h2> */}
 
@@ -37,6 +39,25 @@ const Reports = () => {
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href={SecurityRisk} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Security Risk Assessment (.pdf)</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href={HomeAsset} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Home Asset Inventory (.pdf)</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href={RiskRegister} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Risk Register (.pdf)</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://github.com/juliocesarfort/public-pentesting-reports" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Published Penetration Test Reports</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://csbygb.gitbook.io/pentips/reporting/pentest-report" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">How to report your findings</a>
+      </div>
+
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href={SecurityIncident} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">&nbsp;</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href={SecurityRisk} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">&nbsp;</a>
       </div>
       
       
