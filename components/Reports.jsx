@@ -12,6 +12,7 @@ import HomeAsset from '../src/assets/Home_Asset_Inventory.pdf'
 import RiskRegister from '../src/assets/Risk_Register_exemplar.pdf'
 import DataLeak from '../src/assets/Data_Leak_Worksheet.pdf'
 import AccessControl from '../src/assets/Access_control_worksheet.pdf'
+import VulnAssess from '../src/assets/Vulnerability_Assessment_Report.pdf'
 
 const Reports = () => {
   return ( 
@@ -59,13 +60,9 @@ const Reports = () => {
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href={AccessControl} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Access Controls Worksheet (.pdf)</a>
       </div>
-      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
-        <a href={SecurityIncident} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">&nbsp;</a>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
+        <a href={VulnAssess} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Vulnerability Assessment (.pdf)</a>
       </div>
-      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
-        <a href={SecurityRisk} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">&nbsp;</a>
-      </div>
-
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Home from '../components/Home'
 import Reports from '../components/Reports'
 import Tools from '../components/Tools'
-// import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 import Resources from '../components/Resources'
 
 function App() {
@@ -41,9 +41,9 @@ function App() {
           {myComponents[view]}
         </div>
 
-        {/* <div className=''>
+        <div className=''>
           <Footer />
-        </div> */}
+        </div>
 
       </div>
     </>

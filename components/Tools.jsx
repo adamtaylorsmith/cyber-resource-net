@@ -107,17 +107,17 @@ const Tools = () => {
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://app.any.run/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Any.Run Interactive online malware analysis service</a>
       </div>
-      {/* <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href=".." target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">..</a>
-      </div> */}
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://hackerone.com/bug-bounty-programs" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Ethical Hacker Community - Bug Bounty Opportunities</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://haveibeenpwned.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Have I Been Pwned?</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://owasp.org/www-community/Vulnerability_Scanning_Tools" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Vulnerability Scanning Tools</a>
+      </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
         <a href="https://osintframework.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">OSINT Framework</a>
-      </div>
-      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
-        <a href="https://osintframework.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">&nbsp;</a>
-      </div>
-      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
-        <a href="https://osintframework.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">&nbsp;</a>
       </div>
     </div>
   )

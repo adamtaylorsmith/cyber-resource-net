@@ -3,6 +3,8 @@
 // import bannersImg from '../src/images/bannerBu30.png'
 // import ReactPlayer from 'react-player'
 import Implementation from '../src/assets/CISA_NIST_Framework_Implementation_Guidance.pdf'
+import IncidentHandbook from '../src/assets/Incident_Handlers_Handbook.pdf'
+import RiskAssessment from '../src/assets/NIST_Risk_Assessments.pdf'
 
 const Resources = () => {
   return (
@@ -12,6 +14,9 @@ const Resources = () => {
 
       {/* <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">This collection was built while developing a home lab and</h2> */}
 
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href={IncidentHandbook} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Incident Handlers Handbook (.pdf)</a>
+      </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Service Name and Transport Protocol Port Number Registry</a>
       </div>
@@ -28,7 +33,7 @@ const Resources = () => {
         <a href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Vulnerabilities Security Update Guide - Microsoft</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://nvd.nist.gov/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST National Vulnerability Database</a>
+        <a href="https://nvd.nist.gov/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST NVD - National Vulnerability Database</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.nist.gov/cyberframework/framework" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST Framework</a>
@@ -37,13 +42,16 @@ const Resources = () => {
         <a href="https://csrc.nist.gov/glossary" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST Glossary</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://www.nist.gov/cyberframework/assessment-auditing-resources" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST Assessment & Auditing Resources</a>
+        <a href="https://www.nist.gov/cyberframework/assessment-auditing-resources" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST Assessment and Auditing Resources</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST Security and Privacy Controls</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href={Implementation} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST Framework Implementation Guide (.pdf)</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href={RiskAssessment} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">NIST Performing Risk Assessments - SP 800-30 (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.cisecurity.org/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Center For Internet Security</a>
@@ -133,14 +141,8 @@ const Resources = () => {
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.ncsc.gov.uk/collection/cloud/understanding-cloud-services/cloud-security-shared-responsibility-model" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">UK Cloud Security Guide</a>
       </div>
-      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://idpro.org/body-of-knowledge/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">IAM - Body of Knowledge</a>
-      </div>
-      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
-        <a href="https://www.malware-traffic-analysis.net/index.html" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">&nbsp;</a>
-      </div>
-      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
-        <a href="https://www.malware-traffic-analysis.net/index.html" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">&nbsp;</a>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
+        <a href="https://idpro.org/body-of-knowledge/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">IAM Identity Access Management - Body of Knowledge</a>
       </div>
     </div>
   )
