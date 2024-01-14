@@ -133,6 +133,9 @@ const Resources = () => {
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.ncsc.gov.uk/collection/cloud/understanding-cloud-services/cloud-security-shared-responsibility-model" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">UK Cloud Security Guide</a>
       </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://idpro.org/body-of-knowledge/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">IAM - Body of Knowledge</a>
+      </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
         <a href="https://www.malware-traffic-analysis.net/index.html" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">&nbsp;</a>
       </div>
