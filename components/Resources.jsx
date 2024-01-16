@@ -5,6 +5,7 @@
 import Implementation from '../src/assets/CISA_NIST_Framework_Implementation_Guidance.pdf'
 import IncidentHandbook from '../src/assets/Incident_Handlers_Handbook.pdf'
 import RiskAssessment from '../src/assets/NIST_Risk_Assessments.pdf'
+import Pasta from '../src/assets/PASTA_Worksheet.pdf'
 
 const Resources = () => {
   return (
@@ -143,6 +144,18 @@ const Resources = () => {
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
         <a href="https://idpro.org/body-of-knowledge/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">IAM Identity Access Management - Body of Knowledge</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
+        <a href="https://www.sans.org/newsletters/ouch/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">OUCH! Security Awareness Newsletter</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
+        <a href="https://www.scamwatch.gov.au/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Australia Anti-Scam Centre</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
+        <a href="https://www.phishing.org/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Phishing.org - Prevention and Resources</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
+        <a href={Pasta} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">PASTA Threat Modeling</a>
       </div>
     </div>
   )

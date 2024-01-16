@@ -114,10 +114,10 @@ const Tools = () => {
         <a href="https://haveibeenpwned.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Have I Been Pwned?</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://owasp.org/www-community/Vulnerability_Scanning_Tools" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Vulnerability Scanning Tools</a>
+        <a href="https://osintframework.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">OSINT Framework</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 text-md leading-relaxed">
-        <a href="https://osintframework.com/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">OSINT Framework</a>
+        <a href="https://niccs.cisa.gov/workforce-development/cyber-career-pathways-tool" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Cyber Career Pathways Tool</a>
       </div>
     </div>
   )

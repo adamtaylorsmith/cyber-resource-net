@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <div className=''>
         
-        <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold">Cybersecurity Reports, Resources and Tools</h1>
+        <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold">Cybersecurity Applications, Reports, Resources and Tools</h1>
 
         <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
           {/* By Adam Taylor Smith 2024<br/><br/> */}
