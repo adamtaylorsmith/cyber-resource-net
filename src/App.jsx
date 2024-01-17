@@ -9,7 +9,7 @@ import Applications from '../components/Applcations'
 import Header from '../components/Header'
 
 function App() {
-  
+
   const [view, setView] = useState('Home')
 
   const myComponents = {
@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       
-      <div className='bg-gray-100 w-screen h-screen mb-10'>
+      <div className='bg-neutral-800 w-screen h-screen mb-10'>
         
         <Header setView={setView} />
 

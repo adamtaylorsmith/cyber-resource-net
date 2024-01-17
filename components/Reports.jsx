@@ -17,55 +17,55 @@ import USB from '../src/assets/Parking_Lot_USB_exercise.pdf'
 
 const Reports = () => {
   return ( 
-    <div className='bg-gray-100 h-full'>
+    <div className='bg-neutral-800 h-full'>
 
       <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold">Cyber Reports</h1>
 
       {/* <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">This collection was built while developing a home lab and</h2> */}
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://csbygb.gitbook.io/pentips/reporting/pentest-report" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">How to report your findings</a>
+        <a href="https://csbygb.gitbook.io/pentips/reporting/pentest-report" target="_blank" rel="noreferrer" className="text-blue-400 hover:text-green-400 underline">How to report your findings</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://github.com/juliocesarfort/public-pentesting-reports" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Published Penetration Test Reports</a>
+        <a href="https://github.com/juliocesarfort/public-pentesting-reports" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 underline">Published Public Penetration Test Reports</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={NIST_CSF} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Applying the NIST CSF (.pdf)</a>
+        <a href={NIST_CSF} target="_blank" rel="noreferrer" className="text-blue-400 hover:text-green-400 underline">Applying the NIST CSF (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={NIST_CSF_Incident} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Incident Report Analysis using NIST CSF (.pdf)</a>
+        <a href={NIST_CSF_Incident} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 underline">Incident Report Analysis using NIST CSF (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={IncidentReport} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Incident Report Analysis (.pdf)</a>
+        <a href={IncidentReport} target="_blank" rel="noreferrer" className="text-blue-400 hover:text-green-400 underline">Incident Report Analysis (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={AnalyzeNetworkAttack} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Analyze a Network Attack (.pdf)</a>
+        <a href={AnalyzeNetworkAttack} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 underline">Analyze a Network Attack (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={IncidentInitial} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Incident Initial Report (.pdf)</a>
+        <a href={IncidentInitial} target="_blank" rel="noreferrer" className="text-blue-400 hover:text-green-400 underline">Incident Initial Report (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={SecurityIncident} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Security Incident Report (.pdf)</a>
+        <a href={SecurityIncident} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 underline">Security Incident Report (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={SecurityRisk} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Security Risk Assessment (.pdf)</a>
+        <a href={SecurityRisk} target="_blank" rel="noreferrer" className="text-blue-400 hover:text-green-400 underline">Security Risk Assessment (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={HomeAsset} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Home Asset Inventory (.pdf)</a>
+        <a href={HomeAsset} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 underline">Home Asset Inventory (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={RiskRegister} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Risk Register (.pdf)</a>
+        <a href={RiskRegister} target="_blank" rel="noreferrer" className="text-blue-400 hover:text-green-400 underline">Risk Register (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={DataLeak} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Data Leak Worksheet (.pdf)</a>
+        <a href={DataLeak} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 underline">Data Leak Worksheet (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href={AccessControl} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Access Controls Worksheet (.pdf)</a>
+        <a href={AccessControl} target="_blank" rel="noreferrer" className="text-blue-400 hover:text-green-400 underline">Access Controls Worksheet (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
-        <a href={VulnAssess} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Vulnerability Assessment (.pdf)</a>
+        <a href={VulnAssess} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 underline">Vulnerability Assessment (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
-        <a href={USB} target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-300 underline">Parking Lot USB exercise (.pdf)</a>
+        <a href={USB} target="_blank" rel="noreferrer" className="text-blue-400 hover:text-green-400 underline">Parking Lot USB exercise (.pdf)</a>
       </div>
     </div>
   )

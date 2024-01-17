@@ -57,16 +57,16 @@ const Header = ({setView}) => {
             <button className="text-sm md:text-lg mx-5 md:mx-8 mt-6 text-green-600 hover:text-green-400 cursor-pointer font-bold" onClick={() => setView('Home')}>Cyber-Resource</button>
           </li>
           <li>
-            <button className="text-sm md:text-lg mx-5 md:mx-8 mt-6 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Applications')}>Applications</button>
+            <button className="text-sm md:text-lg mx-5 md:mx-8 mt-6 text-neutral-300 hover:text-green-400 cursor-pointer font-bold" onClick={() => setView('Applications')}>Applications</button>
           </li>
           <li>
-            <button className="text-sm md:text-lg mx-5 md:mx-8 mt-6 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Reports')}>Reports</button>
+            <button className="text-sm md:text-lg mx-5 md:mx-8 mt-6 text-neutral-300 hover:text-green-400 cursor-pointer font-bold" onClick={() => setView('Reports')}>Reports</button>
           </li>
           <li>
-            <button className="text-sm md:text-lg mx-5 md:mx-8 mt-6 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Resources')}>Resources</button>
+            <button className="text-sm md:text-lg mx-5 md:mx-8 mt-6 text-neutral-300 hover:text-green-400 cursor-pointer font-bold" onClick={() => setView('Resources')}>Resources</button>
           </li>
           <li>
-            <button className="text-sm md:text-lg mx-5 md:mx-8 mt-6 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Tools')}>Tools</button>
+            <button className="text-sm md:text-lg mx-5 md:mx-8 mt-6 text-neutral-300 hover:text-green-400 cursor-pointer font-bold" onClick={() => setView('Tools')}>Tools</button>
           </li>
         </ul>
       </nav>
