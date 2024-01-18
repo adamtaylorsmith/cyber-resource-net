@@ -10,17 +10,17 @@ const Header = ({setView}) => {
       <nav>
         <section className="MOBILE-MENU flex md:hidden">
           <div className="flex">
-            <div className="text-lg ml-4 mr-36 sm:mr-80 mt-0 font-bold text-green-600">Cyber-Resource</div>
+            <div className="text-lg ml-4 mr-36 sm:mr-80 font-bold text-green-600">Cyber-Resource</div>
             <div className="HAMBURGER-ICON space-y-2 mr-8 cursor-pointer" onClick={() => setIsNavOpen((prev) => !prev)}>
-              <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-              <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-              <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+              <span className="block h-0.5 w-8 animate-pulse bg-gray-200"></span>
+              <span className="block h-0.5 w-8 animate-pulse bg-gray-200"></span>
+              <span className="block h-0.5 w-8 animate-pulse bg-gray-200"></span>
             </div>
           </div>
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
-            <div className="absolute top-0 right-0 px-8 py-8 cursor-pointer" onClick={() => setIsNavOpen(false)}>
+            <div className="absolute top-0 right-0 px-8 py-4 cursor-pointer" onClick={() => setIsNavOpen(false)}>
               <svg
-                className="h-8 w-8 text-gray-600"
+                className="h-8 w-8 text-gray-300"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -33,20 +33,20 @@ const Header = ({setView}) => {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
-              <li className="border-b border-gray-400 my-6 cursor-pointer text-lg">
+              <li className="border-b border-gray-400 my-6 cursor-pointer text-lg text-neutral-200">
                 <button onClick={() => {setView('Home');setIsNavOpen(false)}}>Cyber-Resource</button>
               </li>
-              <li className="border-b border-gray-400 my-6 cursor-pointer">
+              <li className="border-b border-gray-400 my-6 cursor-pointer text-neutral-200">
                 <button onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications</button>
               </li>
-              <li className="border-b border-gray-400 my-6 cursor-pointer">
+              <li className="border-b border-gray-400 my-6 cursor-pointer text-neutral-200">
                 <button onClick={() => {setView('Reports');setIsNavOpen(false)}}>Reports</button>
               </li>
-              <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button onClick={() => {setView('Resources');setIsNavOpen(false)}}>Resources</button>
+              <li className="border-b border-gray-400 my-6 cursor-pointer text-neutral-200">
+                <button onClick={() => {setView('Resources');setIsNavOpen(false)}}>Online Resources</button>
               </li>
-              <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button onClick={() => {setView('Tools');setIsNavOpen(false)}}>Tools</button>
+              <li className="border-b border-gray-400 my-6 cursor-pointer text-neutral-200">
+                <button onClick={() => {setView('Tools');setIsNavOpen(false)}}>Online Tools</button>
               </li>
             </ul>
           </div>
@@ -81,12 +81,13 @@ const Header = ({setView}) => {
         height: 100vh;
         top: 0;
         left: 0;
-        background: white;
         z-index: 10;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        background-color : #252526;
+        colo
       }
     `}</style>
     </div>
