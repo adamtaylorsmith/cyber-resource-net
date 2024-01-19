@@ -26,7 +26,7 @@ const Reports = () => {
 
       {/* <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">This collection was built while developing a home lab and</h2> */}
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://csbygb.gitbook.io/pentips/reporting/pentest-report" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">How to report your findings</a>
+        <a href="https://csbygb.gitbook.io/pentips/reporting/pentest-report" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">How to report your findings </a><a href="https://www.hacker101.com/resources/articles/writing_a_report_and_cvss" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">(2)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://github.com/juliocesarfort/public-pentesting-reports" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Published Public Penetration Test Reports</a>

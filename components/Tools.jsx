@@ -12,15 +12,33 @@ const Tools = () => {
       {/* <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">This collection was built while developing a home lab and</h2> */}
 
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://github.com/arch3rPro/PentestTools" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Awesome Pentest Tools Collection</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://www.cisa.gov/resources-tools/resources/free-cybersecurity-services-and-tools" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Cybersecurity and Infrastructure Security Agency (CISA) Services and Tools</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://www.google.com/advanced_image_search" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Google Advanced Image Search</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://cyberchef.org/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">CyberChef - Cyber Swiss Army Knife</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://wigle.net/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Wigle - Worldwide wireless networks</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://dmarcian.com/domain-checker/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">DMARC - Email domain checker</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://www.ipaddressguide.com/cidr" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">CIDR to IPv4</a>
       </div>
-
+      {/* https://ui.ctsearch.entrust.com/ui/ctsearchui */}
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://ui.ctsearch.entrust.com/ui/ctsearchui" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">SSL/TLS Certificate Search</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://crt.sh/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Crt.sh - Certificate Search</a>
+      </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://crackstation.net/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400  ">Password Cracking</a>
       </div>
@@ -34,7 +52,10 @@ const Tools = () => {
         <a href="https://urlscan.io/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400  ">URL Scan</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
-        <a href="https://app.phishtool.com/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400  ">PhishTool</a>
+        <a href="https://app.phishtool.com/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400  ">PhishTool - Phishing response platform</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://phishtank.com/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400  ">PhishTank - Suspected phishes</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://code.nsa.gov/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400  ">Open Source Tools @ NSA.gov</a>
@@ -89,6 +110,16 @@ const Tools = () => {
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://www.rapid7.com/db/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400  ">Repository of Exploits and Vulnerabilities</a>
       </div>
+      {/* Search indicators of compromise */}
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400">CVSS - Common Vulnerability Scoring System Calculator</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://maltiverse.com/search" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400">Maltiverse - Search indicators of compromise</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://www.hybrid-analysis.com/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400">Hybrid Analysis - Malware analysis service</a>
+      </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://abuse.ch/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400  ">Abuse.ch - Sharing malware samples, malware sites, IOCs, botnets, SSLs</a>
       </div>
@@ -110,6 +141,7 @@ const Tools = () => {
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://app.any.run/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400  ">Any.Run Interactive online malware analysis service</a>
       </div>
+      {/*  */}
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://hackerone.com/bug-bounty-programs" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400  ">Ethical Hacker Community - Bug Bounty Opportunities</a>
       </div>
@@ -118,6 +150,9 @@ const Tools = () => {
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://osintframework.com/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400  ">OSINT Framework</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
+        <a href="https://www.shodan.io/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400  ">Shodan - Search engine for internet-connected devices</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">
         <a href="https://capesandbox.com/analysis/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400  ">CAPE Sandbox - Analyze Malware in an isolated environment</a>

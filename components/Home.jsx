@@ -12,7 +12,7 @@ const Home = () => {
 
         <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md text-neutral-300 leading-relaxed">
           {/* By Adam Taylor Smith 2024<br/><br/> */}
-          This collection was built while developing a <span className="font-bold text-blue-300">home laboratory</span> and working towards the following Cybersecurity technical certifications;<br/><br/><span className="font- text-blue-300">CompTIA Network+</span><br/><span className="font-bold text-green-400">CompTIA Security+</span><br/><span className="font-bold text-blue-300">Google Cybersecurity Analyst</span></h2>
+          This collection was built while developing a <span className=" text-blue-300">home laboratory</span> and working towards the following Cybersecurity technical certifications;<br/><br/><span className=" text-blue-300">CompTIA Network+</span><br/><span className=" text-green-400">CompTIA Security+</span><br/><span className=" text-blue-300">Google Cybersecurity Analyst</span></h2>
 
       </div>
     </>

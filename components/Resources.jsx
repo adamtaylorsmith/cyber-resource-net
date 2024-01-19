@@ -14,16 +14,17 @@ const Resources = () => {
 
       <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold">Online Cyber Resources</h1>
 
-      {/* <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">This collection was built while developing a home lab and</h2> */}
-
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href={IncidentHandbook} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">The Incident Handlers Handbook (.pdf)</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
+        <a href="https://generatedata.com/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400">Generate Test Data</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Service Name and Transport Protocol Port Number Registry</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
-        <a href="https://www.exploit-db.com/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Exploit Database - Exploits for Pen Testers</a>
+        <a href="https://www.exploit-db.com/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Exploit Database</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Apple Security Releases</a>
@@ -71,7 +72,9 @@ const Resources = () => {
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">CISA Known Exploited Vulnerabilities Catalog</a>
       </div>
-      
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
+        <a href="https://labs.inquest.net/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">InQuest Labs - File data and threat intelligence</a>
+      </div>
       
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href="https://www.cyber.gc.ca/en/guidance/ransomware-playbook-itsm00099" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Canada - Ransomware Playbook</a>
@@ -170,6 +173,9 @@ const Resources = () => {
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
         <a href={Pasta} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">PASTA Threat Modeling</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
+        <a href="https://gtfobins.github.io/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">GTFOBins - Bypass local security restrictions in misconfigured systems</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-2 text-md leading-relaxed">
         <a href="https://www.cisa.gov/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">CISA Cybersecurity and Infrastructure Security Agency</a>
