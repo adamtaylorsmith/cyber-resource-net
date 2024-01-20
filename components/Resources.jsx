@@ -12,7 +12,7 @@ const Resources = () => {
   return (
     <div className='bg-neutral-800 h-full'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold">Online Cyber Resources</h1>
+      <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold mx-4">Online Resources</h1>
 
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 mb-2 text-md leading-relaxed">
         <a href={IncidentHandbook} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">The Incident Handlers Handbook (.pdf)</a>

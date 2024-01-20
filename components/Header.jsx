@@ -9,18 +9,18 @@ const Header = ({setView}) => {
       {/* <button className="text-xl font-bold ml-6 md:ml-12 hover:text-green-600 cursor-pointer" onClick={() => setView('Home')}>Adam T Smith</button> */}
       <nav>
         <section className="MOBILE-MENU flex md:hidden">
-          <div className="flex">
-            <div className="text-lg ml-4 mr-36 sm:mr-80 font-bold text-green-600">Cyber-Resource</div>
-            <div className="HAMBURGER-ICON space-y-2 mr-8 cursor-pointer" onClick={() => setIsNavOpen((prev) => !prev)}>
+          <div className="flex pt-6">
+            <div className="text-lg ml-4 mt mr-36 sm:mr-80 font-bold text-green-600">Cyber-Resource</div>
+            <div className="HAMBURGER-ICON space-y-2 mr-8 mt-1 cursor-pointer" onClick={() => setIsNavOpen((prev) => !prev)}>
               <span className="block h-0.5 w-8 animate-pulse bg-gray-200"></span>
               <span className="block h-0.5 w-8 animate-pulse bg-gray-200"></span>
               <span className="block h-0.5 w-8 animate-pulse bg-gray-200"></span>
             </div>
           </div>
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
-            <div className="absolute top-0 right-0 px-8 py-4 cursor-pointer" onClick={() => setIsNavOpen(false)}>
+            <div className="absolute top-0 right-0 px-8 pt-10 cursor-pointer" onClick={() => setIsNavOpen(false)}>
               <svg
-                className="h-8 w-8 text-gray-300"
+                className="h-8 w-8 text-gray-300 mr-2 sm:mr-20"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -70,26 +70,28 @@ const Header = ({setView}) => {
           </li>
         </ul>
       </nav>
-      <style>{`
-      .hideMenuNav {
-        display: none;
-      }
-      .showMenuNav {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        z-index: 10;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color : #252526;
-        colo
-      }
-    `}</style>
+      <style>
+        {`
+          .hideMenuNav {
+            display: none;
+          }
+          .showMenuNav {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color : #252526;
+            colo
+          }
+        `}
+      </style>
     </div>
   );
 }

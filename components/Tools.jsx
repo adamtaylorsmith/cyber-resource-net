@@ -7,7 +7,7 @@ const Tools = () => {
   return (
     <div className='bg-neutral-800 h-full text-neutral-400'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold">Online Cyber Tools</h1>
+      <h1 className="mt-0 mb-12 flex justify-center text-green-600 text-xl md:text-2xl font-bold mx-4">Online Tools</h1>
 
       {/* <h2 className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-4 text-md leading-relaxed">This collection was built while developing a home lab and</h2> */}
 
