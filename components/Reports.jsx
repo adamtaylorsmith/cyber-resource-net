@@ -1,7 +1,6 @@
 // import React from 'react'
 // import home from '../src/images/home.png'
 // import friend from '../src/images/friend.png'
-import NIST_CSF from '../src/assets/Applying_the_NIST_CSF.pdf'
 import NIST_CSF_Incident from '../src/assets/Incident_Report_Analysis_NIST_CSF.pdf'
 import IncidentReport from '../src/assets/Example_Incident_Report_Analysis.pdf'
 import AnalyzeNetworkAttack from '../src/assets/Analyze_Network_Attack.pdf'
@@ -35,9 +34,6 @@ const Reports = () => {
       
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-3 text-md leading-relaxed">
         <a href={Documentation} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Best Practices for Effective Documentation (.pdf)</a>
-      </div>
-      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-3 text-md leading-relaxed">
-        <a href={NIST_CSF} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Applying the NIST CSF (.pdf)</a>
       </div>
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-3 text-md leading-relaxed">
         <a href={NIST_CSF_Incident} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Incident Report Analysis using NIST CSF (.pdf)</a>
