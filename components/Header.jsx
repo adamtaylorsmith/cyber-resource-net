@@ -43,10 +43,10 @@ const Header = ({setView}) => {
                 <button onClick={() => {setView('Reports');setIsNavOpen(false)}}>Reports</button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer text-neutral-200">
-                <button onClick={() => {setView('Resources');setIsNavOpen(false)}}>Online Resources</button>
+                <button onClick={() => {setView('Resources');setIsNavOpen(false)}}>Resources</button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer text-neutral-200">
-                <button onClick={() => {setView('Tools');setIsNavOpen(false)}}>Online Tools</button>
+                <button onClick={() => {setView('Tools');setIsNavOpen(false)}}>Tools</button>
               </li>
             </ul>
           </div>
