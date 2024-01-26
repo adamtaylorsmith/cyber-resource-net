@@ -71,6 +71,15 @@ const Resources = () => {
       <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-3 text-md leading-relaxed">
         <a href="https://www.cryptohack.org/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Learn Cryptography</a>
       </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-3 text-md leading-relaxed">
+        <a href="https://docs.python.org/3/library/functions.html" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Python Built-in Functions</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-3 text-md leading-relaxed">
+        <a href="https://www.pythoncheatsheet.org/cheatsheet/basics" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Python Cheatsheet</a>
+      </div>
+      <div className="xl:mx-80 lg:mx-60 md:mx-16 mx-10 pb-3 text-md leading-relaxed">
+        <a href="https://peps.python.org/pep-0008/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Python PEP 8 Style Guide</a>
+      </div>
 
 
 {/* ****************************************************************************************************************************** */}
