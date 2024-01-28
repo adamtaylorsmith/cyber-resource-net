@@ -6,7 +6,7 @@ const Header = ({setView}) => {
 
   return (
     <div className="flex items-center justify-between py-8">
-      <button className="text-xl font-bold ml-6 md:ml-12 text-green-600 hover:text-green-500 cursor-pointer mt-1" onClick={() => setView('Home')}>Cyber-Resource</button>
+      <button className="text-xl font-bold ml-6 md:ml-16 text-green-600 hover:text-green-500 cursor-pointer mt-1" onClick={() => setView('Home')}>Cyber-Resource</button>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
