@@ -8,7 +8,8 @@ import RiskAssessment from '../src/assets/NIST_Risk_Assessments.pdf'
 import Pasta from '../src/assets/PASTA_Worksheet.pdf'
 import Incident from '../src/assets/Applying_NIST_CSF.pdf'
 import PyReference from '../src/assets/Reference_Guide_Python_Concepts.pdf'
-
+import Glossary from '../src/assets/Google_Cybersecurity_Glossary.pdf' 
+import Control from '../src/assets/Control_Categories.pdf' 
 
 const Resources = () => {
   return (
@@ -18,7 +19,7 @@ const Resources = () => {
 
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600'>Analysis and Preparation:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 underline'>Analysis and Preparation:</h2>
       
       {/* <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet" target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">Active Directory Exploitation Cheat Sheet</a>
@@ -27,7 +28,6 @@ const Resources = () => {
         <a href="https://github.com/Cloud-Architekt/AzureAD-Attack-Defense" target="_blank" rel="noreferrer" className=" text-neutral-300 hover:text-green-400 ">Azure Active Directory Attack and Defend</a>
       </div> */}
       
-      
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.scamwatch.gov.au/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Australia Anti-Scam Centre</a>
       </div>
@@ -35,7 +35,16 @@ const Resources = () => {
         <a href="https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html" target="_blank" rel="noreferrer" className=" text-neutral-300 hover:text-green-400 ">Cisco SAFE - Secure Architecture for Everyone </a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+        <a href={Control} target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">Control Categories</a>
+      </div>
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+        <a href="https://www.sans.org/blog/cybersecurity-podcast-roundup/" target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">Cybersecurity Podcasts</a>
+      </div>
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://cyware.com/cyber-security-news-articles" target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">Cyware Latest Cybersecurity News and Articles</a>
+      </div>
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+        <a href={Glossary} target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">Google Cybersecurity Glossary (.pdf)</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://engage.mitre.org/starter-kit/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">MITRE Cyber Defense Starter Kit</a>
@@ -46,9 +55,9 @@ const Resources = () => {
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.isecom.org/OSSTMM.3.pdf" target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">Open Source Security Testing Methodology Manual</a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+      {/* <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.sans.org/newsletters/ouch/" target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">OUCH! Security Awareness Newsletter</a>
-      </div>
+      </div> */}
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.malware-traffic-analysis.net/index.html" target="_blank" rel="noreferrer" className=" text-neutral-300 hover:text-green-400 ">Packet Capture files and Malware Samples</a>
       </div>
@@ -63,7 +72,7 @@ const Resources = () => {
       </div>
 
 {/* ***************************************************************************************************************************88 */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 pb-3'>Coding and Applications:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 pb-5 underline'>Coding and Applications:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://generatedata.com/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Generate Test Data</a>
@@ -86,7 +95,7 @@ const Resources = () => {
 
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>Incidents and Response:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Incidents and Response:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.cyber.gc.ca/en/guidance/ransomware-playbook-itsm00099" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Canada Ransomware Playbook</a>
@@ -97,7 +106,7 @@ const Resources = () => {
 
 
 {/* ***************************************************************************************************************************88 */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 pb-3'>NIST:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 pb-5 underline'>NIST:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.nist.gov/cyberframework/assessment-auditing-resources" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">NIST Assessment and Auditing Resources</a>
@@ -126,7 +135,7 @@ const Resources = () => {
 
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>Organizational:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Organizational:</h2>
       
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.cisecurity.org/" target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">Center For Internet Security</a>
@@ -152,7 +161,7 @@ const Resources = () => {
 
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>Threats:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Threats:</h2>
       
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://github.com/center-for-threat-informed-defense/adversary_emulation_library" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Adversary Emulation Plans Library</a>
@@ -199,7 +208,7 @@ const Resources = () => {
       
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>Vulnerabilities:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Vulnerabilities:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Apple Security Releases</a>

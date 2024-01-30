@@ -12,11 +12,11 @@ const Applications = () => {
   return ( 
     <div className='bg-neutral-800 h-full'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Applications Documentation</h1>
+      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Applications</h1>
 
       
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600'>Analysis and Incidents:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 underline'>Analysis and Incidents:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://exiftool.org/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">ExifTool - Read, Write and Edit Meta Information</a>
@@ -37,7 +37,7 @@ const Applications = () => {
       </div>
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>Coding:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Coding:</h2>
       
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://httpd.apache.org/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Apache Http Server</a>
@@ -59,7 +59,7 @@ const Applications = () => {
       </div>
       
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>IDS and SIEM:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>IDS and SIEM:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://cloud.google.com/chronicle/docs" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Google Chronicle SIEM</a><a href="https://cloud.google.com/chronicle/docs/reference/udm-field-list" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">&nbsp;(2)</a>
@@ -81,7 +81,7 @@ const Applications = () => {
       </div>
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>Pentesting:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Pentesting:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://github.com/angryip/ipscan" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Angry IP Network Scanner</a>

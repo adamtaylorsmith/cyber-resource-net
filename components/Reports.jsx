@@ -17,6 +17,8 @@ import Documentation from '../src/assets/Best_Practices_for_Documentation.pdf'
 import Phishing from '../src/assets/Phishing_Exercise_Report_with_Playbook.pdf'
 import FinalReport from '../src/assets/Incident_Final_Report.pdf'
 import Controls from '../src/assets/Controls.pdf'
+import RiskAssess from '../src/assets/Risk_Assessment_Report.pdf'
+import RiskControl from '../src/assets/Controls_Compliance_Checklist.pdf'
 
 const Reports = () => {
   return ( 
@@ -25,7 +27,7 @@ const Reports = () => {
       <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Example Reports</h1>
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600'>Analysis and Preparation:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md underline leading-relaxed text-xl font-bold text-green-600'>Analysis and Preparation:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href={AccessControl} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Access Controls Worksheet (.pdf)</a>
@@ -52,6 +54,9 @@ const Reports = () => {
         <a href="https://github.com/juliocesarfort/public-pentesting-reports" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Published Public Penetration Test Reports</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+        <a href={RiskAssess} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Risk Assessment <a href={RiskControl} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">(2)</a> (.pdf)</a>
+      </div>
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href={RiskRegister} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Risk Register (.pdf)</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
@@ -63,7 +68,7 @@ const Reports = () => {
 
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>Incident and Response:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Incident and Response:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href={AnalyzeNetworkAttack} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Analyze a Network Attack (.pdf)</a>

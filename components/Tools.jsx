@@ -11,7 +11,7 @@ const Tools = () => {
 
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600'>Analysis:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 underline'>Analysis:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.cisa.gov/resources-tools/resources/free-cybersecurity-services-and-tools" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">CISA Services and Tools</a>
@@ -58,7 +58,7 @@ const Tools = () => {
       
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>Vulnerabilities:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Vulnerabilities:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400">CVSS - Common Vulnerability Scoring System Calculator</a>
@@ -72,7 +72,7 @@ const Tools = () => {
 
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>Incidents and Response:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Incidents and Response:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://abuse.ch/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400  ">Abuse.ch - Sharing malware samples, malware sites, IOCs, botnets, SSLs</a>
@@ -129,7 +129,7 @@ const Tools = () => {
    
 
 {/* ****************************************************************************************************************************** */}
-<h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed text-xl font-bold text-green-600 pt-6'>Pentesting:</h2>
+<h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Pentesting:</h2>
 
 <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://github.com/arch3rPro/PentestTools" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Awesome Pentest Tools Collection</a>
