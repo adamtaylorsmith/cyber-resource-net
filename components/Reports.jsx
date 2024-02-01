@@ -6,7 +6,7 @@ import IncidentReport from '../src/assets/Example_Incident_Report_Analysis.pdf'
 import AnalyzeNetworkAttack from '../src/assets/Analyze_Network_Attack.pdf'
 import IncidentInitial from '../src/assets/Incident_Initial_Report.pdf'
 import SecurityIncident from '../src/assets/Security_Incident_Report.pdf'
-import SecurityRisk from '../src/assets/Security_Risk_Assessment.pdf'
+// import SecurityRisk from '../src/assets/Security_Risk_Assessment.pdf'
 import HomeAsset from '../src/assets/Home_Asset_Inventory.pdf'
 import RiskRegister from '../src/assets/Risk_Register_exemplar.pdf'
 import DataLeak from '../src/assets/Data_Leak_Worksheet.pdf'
@@ -33,7 +33,7 @@ const Reports = () => {
         <a href={AccessControl} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Access Controls Worksheet (.pdf)</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
-        <a href={Documentation} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Best Practices for Effective Documentation (.pdf)</a>
+        <a href={Documentation} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Best Practices for effective documentation (.pdf)</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href={Controls} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Controls and Compliance (.pdf)</a>
@@ -42,10 +42,10 @@ const Reports = () => {
         <a href={HomeAsset} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Home Asset Inventory (.pdf)</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
-        <a href="https://csbygb.gitbook.io/pentips/reporting/pentest-report" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">How to report your findings </a><a href="https://www.hacker101.com/resources/articles/writing_a_report_and_cvss" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">(2)</a>
+        <a href="https://csbygb.gitbook.io/pentips/reporting/pentest-report" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">How to report your findings </a><a href="https://www.hacker101.com/resources/articles/writing_a_report_and_cvss" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">(2)</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
-        <a href={USB} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Parking Lot USB exercise (.pdf)</a>
+        <a href={USB} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Parking Lot USB exercise (.pdf)</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href={Phishing} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Phishing Exercise with Playbook (.pdf)</a>
@@ -54,21 +54,21 @@ const Reports = () => {
         <a href="https://github.com/juliocesarfort/public-pentesting-reports" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Published Public Penetration Test Reports</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
-        <a href={RiskAssess} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Risk Assessment <a href={RiskControl} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">(2)</a> (.pdf)</a>
+        <a href={RiskAssess} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Risk Assessment exercise (.pdf) </a><a href={RiskControl} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">(2)</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
-        <a href={RiskRegister} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Risk Register (.pdf)</a>
+        <a href={RiskRegister} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Risk Register (.pdf)</a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+      {/* <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href={SecurityRisk} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Security Risk Assessment (.pdf)</a>
-      </div>
+      </div> */}
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
-        <a href={VulnAssess} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Vulnerability Assessment (.pdf)</a>
+        <a href={VulnAssess} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Vulnerability Assessment (.pdf)</a>
       </div>
 
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-6 underline'>Incident and Response:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 text-md leading-relaxed text-xl font-bold text-green-600 pt-10 underline'>Incident and Response:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href={AnalyzeNetworkAttack} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Analyze a Network Attack (.pdf)</a>
