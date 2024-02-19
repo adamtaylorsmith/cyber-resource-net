@@ -6,7 +6,7 @@ const Header = ({setView}) => {
 
   return (
     <div className="flex items-center justify-between py-8">
-      <button className="text-xl font-bold ml-6 md:ml-16 text-green-600 hover:text-green-500 cursor-pointer mt-1" onClick={() => setView('Home')}>Cyber-Resource</button>
+      <button className="text-xl font-bold ml-6 md:ml-16 text-green-500 hover:text-green-400 cursor-pointer mt-1" onClick={() => setView('Home')}>Cyber-Resource</button>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -38,19 +38,19 @@ const Header = ({setView}) => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 cursor-pointer">
-                <button className="text-lg text-neutral-300" onClick={() => {setView('Home');setIsNavOpen(false)}}>Cyber-Resource Home</button>
+                <button className="text-base text-neutral-300" onClick={() => {setView('Home');setIsNavOpen(false)}}>Cyber-Resource Home</button>
               </li>
               <li className="border-b border-gray-400 my-8 cursor-pointer">
-                <button className="text-lg text-neutral-300" onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications</button>
+                <button className="text-base text-neutral-300" onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications</button>
               </li>
               <li className="border-b border-gray-400 my-8 cursor-pointer">
-                <button className="text-lg text-neutral-300" onClick={() => {setView('Reports');setIsNavOpen(false)}}>Reports</button>
+                <button className="text-base text-neutral-300" onClick={() => {setView('Reports');setIsNavOpen(false)}}>Reports</button>
               </li>
               <li className="border-b border-gray-400 my-8 cursor-pointer">
-                <button className="text-lg text-neutral-300" onClick={() => {setView('Resources');setIsNavOpen(false)}}>Resources</button>
+                <button className="text-base text-neutral-300" onClick={() => {setView('Resources');setIsNavOpen(false)}}>Resources</button>
               </li>
               <li className="border-b border-gray-400 my-8 cursor-pointer">
-                <button className="text-lg text-neutral-300" onClick={() => {setView('Tools');setIsNavOpen(false)}}>Tools</button>
+                <button className="text-base text-neutral-300" onClick={() => {setView('Tools');setIsNavOpen(false)}}>Tools</button>
               </li>
             </ul>
           </div>
