@@ -5,7 +5,6 @@ import Suricata from '../src/assets/Suricata_Examples_Goog_Cert.pdf'
 import TcpdumpTwo from '../src/assets/Tcpdump_Cmds_for_Junior.pdf'
 import TcpdumpThree from '../src/assets/Tcpdump_DNS_HTTP_Log.pdf'
 import WireLog from '../src/assets/Wireshark_Log.pdf'
-import Linux from '../src/assets/Linux_Reference_Goog_Cert.pdf'
 import SplunkQ from '../src/assets/Query_with_Chronicle_Splunk.pdf'
 
 const Applications = () => {
@@ -51,9 +50,9 @@ const Applications = () => {
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://jupyter.org/try-jupyter/lab/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Jupyter Web-based Notebook Environment</a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+      {/* <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href={Linux} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Linux Reference Google Cert</a>
-      </div>
+      </div> */}
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://docs.google.com/document/d/1QVfrtp4QywbvQ5ALupN7-gKNrXI9yrYDv6PyCwWVAYg/template/preview" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">SQL Reference Guide</a>
       </div>

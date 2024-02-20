@@ -10,6 +10,8 @@ import Incident from '../src/assets/Applying_NIST_CSF.pdf'
 import PyReference from '../src/assets/Reference_Guide_Python_Concepts.pdf'
 import Glossary from '../src/assets/Google_Cybersecurity_Glossary.pdf' 
 import Control from '../src/assets/Control_Categories.pdf' 
+import Linux from '../src/assets/Linux_Reference_Goog_Cert.pdf'
+import LinuxCheat from '../src/images/LinuxCheatsheet.png'
 
 const Resources = () => {
   return (
@@ -53,9 +55,15 @@ const Resources = () => {
         <a href="https://staysafeonline.org/resources/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">NCA Stay Safe Online</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+        <a href="https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">NSA Best Practices for Securing Your Home Network (.pdf)</a>
+      </div>
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.isecom.org/OSSTMM.3.pdf" target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">Open Source Security Testing Methodology Manual</a>
       </div>
-      {/* <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+        <a href="https://github.com/OWASP/SecurityShepherd" target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">OWASP Security Shepherd - Application Security Training Platform</a>
+      </div>
+      {/*   <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.sans.org/newsletters/ouch/" target="_blank" rel="noreferrer" className=" text-blue-300 hover:text-green-400 ">OUCH! Security Awareness Newsletter</a>
       </div> */}
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
@@ -72,13 +80,19 @@ const Resources = () => {
       </div>
 
 {/* ***************************************************************************************************************************88 */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 text-md leading-relaxed text-xl font-bold text-green-600 pt-10 pb-5 underline'>Coding and Applications:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 text-md leading-relaxed text-xl font-bold text-green-600 pt-10 pb-5 underline'>Coding and OS:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://generatedata.com/" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Generate Test Data</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://www.cryptohack.org/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Learn Cryptography</a>
+      </div>
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+        <a href={LinuxCheat} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Linux Cheatsheet</a>
+      </div>
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
+        <a href={Linux} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Linux Reference Google Cert</a>
       </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-md leading-relaxed">
         <a href="https://docs.python.org/3/library/functions.html" target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Python Built-in Functions</a>
