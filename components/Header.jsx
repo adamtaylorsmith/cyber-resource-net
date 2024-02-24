@@ -37,20 +37,20 @@ const Header = ({setView}) => {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
-              <li className="border-b border-gray-400 my-8 cursor-pointer">
-                <button className="text-base text-neutral-300" onClick={() => {setView('Home');setIsNavOpen(false)}}>Cyber-Resource Home</button>
+              <li className="border-b border-gray-400 my-6 cursor-pointer">
+                <button className="text-neutral-300" onClick={() => {setView('Home');setIsNavOpen(false)}}>Home</button>
               </li>
-              <li className="border-b border-gray-400 my-8 cursor-pointer">
-                <button className="text-base text-neutral-300" onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications</button>
+              <li className="border-b border-gray-400 my-6 cursor-pointer">
+                <button className="text-base text-neutral-300" onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications Docs</button>
               </li>
-              <li className="border-b border-gray-400 my-8 cursor-pointer">
-                <button className="text-base text-neutral-300" onClick={() => {setView('Reports');setIsNavOpen(false)}}>Reports</button>
+              <li className="border-b border-gray-400 my-6 cursor-pointer">
+                <button className="text-base text-neutral-300" onClick={() => {setView('Reports');setIsNavOpen(false)}}>Example Reports</button>
               </li>
-              <li className="border-b border-gray-400 my-8 cursor-pointer">
-                <button className="text-base text-neutral-300" onClick={() => {setView('Resources');setIsNavOpen(false)}}>Resources</button>
+              <li className="border-b border-gray-400 my-6 cursor-pointer">
+                <button className="text-base text-neutral-300" onClick={() => {setView('Resources');setIsNavOpen(false)}}>Online Resources</button>
               </li>
-              <li className="border-b border-gray-400 my-8 cursor-pointer">
-                <button className="text-base text-neutral-300" onClick={() => {setView('Tools');setIsNavOpen(false)}}>Tools</button>
+              <li className="border-b border-gray-400 my-6 cursor-pointer">
+                <button className="text-base text-neutral-300" onClick={() => {setView('Tools');setIsNavOpen(false)}}>Online Tools</button>
               </li>
             </ul>
           </div>
@@ -70,7 +70,7 @@ const Header = ({setView}) => {
             <button className="mr-20 xl:mr-36 mt-2 text-neutral-300 hover:text-green-500 font-bold text-lg cursor-pointer" onClick={() => setView('Tools')}>Tools</button>
           </li>
           {/* <li>
-            <button className="mr-12 xl:mr-20 text-md text-white bg-green-600 hover:bg-green-200 hover:text-amber-600 h-11 w-32 rounded py-2 px-4 shadow-lg cursor-pointer" onClick={() => setView('Contact')}>Contact Me</button>
+            <button className="mr-12 xl:mr-20 text-base text-white bg-green-600 hover:bg-green-200 hover:text-amber-600 h-11 w-32 rounded py-2 px-4 shadow-lg cursor-pointer" onClick={() => setView('Contact')}>Contact Me</button>
           </li> */}
         </ul>
       </nav>
