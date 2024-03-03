@@ -22,12 +22,12 @@ import RiskControl from '../src/assets/Controls_Compliance_Checklist.pdf'
 
 const Reports = () => {
   return ( 
-    <div className='bg-neutral-800 h-full'>
+    <div className='bg-zinc-900 h-full'>
 
       <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Example Reports</h1>
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 underline leading-relaxed text-xl font-bold text-green-600'>Analysis and Preparation:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 underline leading-relaxed text-xl font-bold text-green-500'>Analysis and Preparation:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
         <a href={AccessControl} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">Access Controls Worksheet (.pdf)</a>
@@ -68,7 +68,7 @@ const Reports = () => {
 
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 leading-relaxed text-xl font-bold text-green-600 pt-10 underline'>Incident and Response:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 leading-relaxed text-xl font-bold text-green-500 pt-10 underline'>Incident and Response:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
         <a href={AnalyzeNetworkAttack} target="_blank" rel="noreferrer" className="text-neutral-300 hover:text-green-400 ">Analyze a Network Attack (.pdf)</a>

@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       
-      <div className='bg-neutral-800 w-screen h-screen mb-10'>
+      <div className='bg-zinc-900 w-screen h-screen mb-10'>
         
         <Header setView={setView} />
 
