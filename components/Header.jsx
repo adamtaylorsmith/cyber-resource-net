@@ -13,9 +13,9 @@ const Header = ({setView}) => {
             className="HAMBURGER-ICON space-y-2 mr-8 cursor-pointer"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-300"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-300"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-300"></span>
+            <span className="block h-0.5 w-8 bg-gray-300"></span>
+            <span className="block h-0.5 w-8 bg-gray-300"></span>
+            <span className="block h-0.5 w-8 bg-gray-300"></span>
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
