@@ -56,6 +56,9 @@ const Applications = () => {
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
         <a href="https://docs.google.com/document/d/1QVfrtp4QywbvQ5ALupN7-gKNrXI9yrYDv6PyCwWVAYg/template/preview" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">SQL Reference Guide</a>
       </div>
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
+        <a href="https://mariadb.com/kb/en/documentation/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-green-400 ">MariaDB Docs</a>
+      </div>
       
 {/* ****************************************************************************************************************************** */}
       <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 leading-relaxed text-xl font-bold text-green-600 pt-10 underline'>IDS and SIEM:</h2>
