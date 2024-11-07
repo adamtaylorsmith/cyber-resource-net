@@ -78,6 +78,9 @@ const Resources = () => {
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
         <a href="https://www.ready.gov/" target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500">Ready.gov</a>
       </div>
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
+        <a href="https://niccs.cisa.gov/workforce-development/nice-framework" target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500">Workforce Framework for Cybersecurity (NICE)</a>
+      </div>
 
 {/* ***************************************************************************************************************************88 */}
       <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 leading-relaxed text-xl font-bold text-green-500 pt-10 pb-5 underline'>Coding and OS:</h2>
