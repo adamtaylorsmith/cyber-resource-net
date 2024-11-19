@@ -11,41 +11,62 @@ const Applications = () => {
   return ( 
     <div className='bg-zinc-900 h-full'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Applications Official Docs</h1>
+      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Applications - Official Docs</h1>
 
       
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 leading-relaxed text-xl font-bold text-green-500 underline'>Analysis and Incidents:</h2>
+      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 leading-relaxed text-xl lg:text-2xl font-bold text-blue-400'>Analysis and Incidents:</h2>
         
-        <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed rounded bg-slate-800">
-          <div className="pt-2 px-4">
-            <a href="https://exiftool.org/" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500">ExifTool - Read, Write and Edit Meta Information</a>
-          </div>
+        {/*
+        
+        <div className="py-1">
+          <a className="px-4 mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 pt-2 text-base leading-relaxed rounded bg-slate-800 hover:bg-slate-600 text-zinc-200 hover:text-zinc-100 flex" target="_blank" rel="noreferrer" href="_">_</a>
         </div>
 
-        <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed rounded bg-slate-800 mt-1.5">
-          <div className="pt-2 px-4">
-            <a href="https://code.nsa.gov/" target="_blank" rel="noreferrer" className="text-zinc-300 hover:text-blue-500 ">Open Source Tools @ NSA.gov</a>
-          </div>  
+        <div className="py-1 flex-row flex flex-nowrap">
+            <a className="rounded pl-4 pb-3 pt-2 
+            ml-10 md:ml-14 lg:ml-48 xl:ml-80 
+            w-1/2 bg-slate-800 hover:bg-slate-600 text-base leading-relaxed text-zinc-200 hover:text-blue-300" target="_blank" rel="noreferrer" href="_">_</a>
+            <a href={_Two} target="_blank" rel="noreferrer" className="px-4 pb-3 pt-2.5 ml-2 w-1/4 rounded bg-slate-800 hover:bg-slate-600 text-sm leading-relaxed text-zinc-300 hover:text-zinc-200">_ (2)</a>
+            <a href={_Three} target="_blank" rel="noreferrer" className="mr-10 md:mr-14 lg:mr-48 xl:mr-80 px-4 pb-3 pt-2.5 ml-2 w-1/4 rounded bg-slate-800 hover:bg-slate-600 text-sm leading-relaxed text-zinc-300 hover:text-zinc-200">_ (3)</a>
         </div>
 
-        <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed rounded bg-slate-800 mt-1.5">
-          <div className="pt-2 px-4">
-            <a href="https://www.tcpdump.org/manpages/tcpdump.1.html" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Tcpdump</a>
-            <a href={TcpdumpTwo} target="_blank" rel="noreferrer" className="text-zinc-300 hover:text-blue-500 ">&nbsp;(2)</a>
-            <a href={TcpdumpThree} target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">&nbsp;(3)</a>
-          </div>
+        */}
+
+        <div className="py-1.5">
+          <a className="px-4 mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 pt-2 text-base leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://exiftool.org/"><span className='text-lg'>ExifTool</span>&nbsp;- read, write and edit Meta information</a>
         </div>
 
-        <div className="pt-6"></div>
-        <a className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 pt-2 text-base leading-relaxed rounded bg-slate-800 hover:bg-slate-600 px-4 text-zinc-300 hover:text-blue-500" target="_blank" rel="noreferrer" href="**">**</a>
+        <div className="py-1.5">
+          <a className="px-4 mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 pt-2 text-base leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://code.nsa.gov/"><span className='text-lg'>NSA.gov OST</span>&nbsp;- open source tools </a>
+        </div>
 
-        <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-          <a href="https://www.wireshark.org/docs/wsug_html/" target="_blank" rel="noreferrer" className="text-zinc-300 hover:text-blue-500 ">Wireshark - Packet Sniffer</a><a href={WireLog} target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">&nbsp;(2)</a>
+        <div className="py-1.5 flex-row flex flex-nowrap">
+            <a className="rounded pl-4 pb-3 pt-2 
+            ml-10 md:ml-14 lg:ml-48 xl:ml-80 
+            w-1/2 bg-slate-800 hover:bg-slate-700 text-base leading-relaxed text-zinc-200 hover:text-zinc-300" target="_blank" rel="noreferrer" href="https://www.tcpdump.org/manpages/tcpdump.1.html"><span className='text-lg'>Tcpdump</span></a>
+
+            <a href={TcpdumpTwo} target="_blank" rel="noreferrer" className="px-4 pb-3 pt-3 ml-1.5 w-1/4 rounded bg-slate-800 hover:bg-slate-700 text-sm leading-relaxed text-zinc-300 hover:text-zinc-300">Tcpdump (2)</a>
+
+            <a href={TcpdumpThree} target="_blank" rel="noreferrer" className="mr-10 md:mr-14 lg:mr-48 xl:mr-80 px-4 pb-3 pt-3 ml-1.5 w-1/4 rounded bg-slate-800 hover:bg-slate-700 text-sm leading-relaxed text-zinc-300 hover:text-zinc-300">Tcpdump (3)</a>
         </div>
-        <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-          <a href="https://github.com/virustotal/yara" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Yara - Identify and classify malware samples</a><a href="https://github.com/InQuest/awesome-yara" target="_blank" rel="noreferrer" className="text-zinc-300 hover:text-blue-500">&nbsp;(2)</a>
+
+        <div className="py-1.5 flex-row flex flex-nowrap">
+            <a className="rounded pl-4 pb-3 pt-2 
+            ml-10 md:ml-14 lg:ml-48 xl:ml-80 
+            w-2/3 bg-slate-800 hover:bg-slate-700 text-base leading-relaxed text-zinc-200 hover:text-zinc-300" target="_blank" rel="noreferrer" href="https://www.wireshark.org/docs/wsug_html/"><span className='text-lg'>Wireshark</span> - Packet Sniffer</a>
+
+            <a href={WireLog} target="_blank" rel="noreferrer" className="px-4 pb-3 pt-3 ml-1.5 w-1/3 rounded bg-slate-800 hover:bg-slate-700 text-sm leading-relaxed text-zinc-300 hover:text-zinc-300 mr-10 md:mr-14 lg:mr-48 xl:mr-80 ">Wireshark (2)</a>
         </div>
+
+        <div className="py-1.5 flex-row flex flex-nowrap">
+            <a className="rounded pl-4 pb-3 pt-2 
+            ml-10 md:ml-14 lg:ml-48 xl:ml-80 
+            w-2/3 bg-slate-800 hover:bg-slate-700 text-base leading-relaxed text-zinc-200 hover:text-zinc-300" target="_blank" rel="noreferrer" href="https://github.com/virustotal/yara"><span className='text-lg'>Yara</span> - Identify and classify malware samples</a>
+            
+            <a href="https://github.com/InQuest/awesome-yara" target="_blank" rel="noreferrer" className="px-4 pb-3 pt-3 ml-1.5 w-1/3 rounded bg-slate-800 hover:bg-slate-700 text-sm leading-relaxed text-zinc-300 hover:text-zinc-300 mr-10 md:mr-14 lg:mr-48 xl:mr-80 ">Yara (2)</a>
+        </div>
+
 {/* ****************************************************************************************************************************** */}
       <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 leading-relaxed text-xl font-bold text-green-500 pt-10 underline'>Coding:</h2>
       
