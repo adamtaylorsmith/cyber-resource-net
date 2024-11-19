@@ -38,19 +38,19 @@ const Header = ({setView}) => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-zinc-300" onClick={() => {setView('Home');setIsNavOpen(false)}}>Home</button>
+                <button className="text-zinc-300 text-lg" onClick={() => {setView('Home');setIsNavOpen(false)}}>Home</button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base text-zinc-300" onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications Docs</button>
+                <button className=" text-zinc-300 text-lg" onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications Official Docs</button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base text-zinc-300" onClick={() => {setView('Reports');setIsNavOpen(false)}}>Example Reports</button>
+                <button className=" text-zinc-300 text-lg" onClick={() => {setView('Reports');setIsNavOpen(false)}}>Example Reports</button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base text-zinc-300" onClick={() => {setView('Resources');setIsNavOpen(false)}}>Online Resources</button>
+                <button className=" text-zinc-300 text-lg" onClick={() => {setView('Resources');setIsNavOpen(false)}}>Online Resources</button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base text-zinc-300" onClick={() => {setView('Tools');setIsNavOpen(false)}}>Online Tools</button>
+                <button className="text-zinc-300 text-lg" onClick={() => {setView('Tools');setIsNavOpen(false)}}>Online Tools</button>
               </li>
             </ul>
           </div>
@@ -58,7 +58,7 @@ const Header = ({setView}) => {
 
         <ul className="DESKTOP-MENU hidden lg:flex">
           <li>
-            <button className="mr-20 xl:mr-40 mt-2 text-zinc-300 hover:text-green-500 font-bold text-lg cursor-pointer" onClick={() => setView('Applications')}>Applications</button>
+            <button className="mr-20 xl:mr-40 mt-2 text-zinc-300 hover:text-green-500 font-bold text-lg cursor-pointer" onClick={() => setView('Applications')}>Applications Official Docs</button>
           </li>
           <li>
             <button className="mr-20 xl:mr-40 mt-2 text-zinc-300 hover:text-green-500 font-bold text-lg cursor-pointer" onClick={() => setView('Reports')}>Reports</button>
