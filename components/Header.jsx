@@ -58,16 +58,16 @@ const Header = ({setView}) => {
 
         <ul className="DESKTOP-MENU hidden lg:flex">
           <li>
-            <button className="mr-16 xl:mr-20 mt-2 text-zinc-300 hover:text-green-500 text-lg cursor-pointer" onClick={() => setView('Applications')}>Applications</button>
+            <button className="mr-16 xl:mr-20 mt-2 text-zinc-300 hover:text-blue-400 text-lg cursor-pointer" onClick={() => setView('Applications')}>Applications</button>
           </li>
           <li>
-            <button className="mr-16 xl:mr-20 mt-2 text-zinc-300 hover:text-green-500 text-lg cursor-pointer" onClick={() => setView('Reports')}>Reports</button>
+            <button className="mr-16 xl:mr-20 mt-2 text-zinc-300 hover:text-blue-400 text-lg cursor-pointer" onClick={() => setView('Reports')}>Reports</button>
           </li>
           <li>
-            <button className="mr-16 xl:mr-20 mt-2 text-zinc-300 hover:text-green-500 text-lg cursor-pointer" onClick={() => setView('Resources')}>Resources</button>
+            <button className="mr-16 xl:mr-20 mt-2 text-zinc-300 hover:text-blue-400 text-lg cursor-pointer" onClick={() => setView('Resources')}>Resources</button>
           </li>
           <li>
-            <button className="mr-20 xl:mr-24 mt-2 text-zinc-300 hover:text-green-500 text-lg cursor-pointer" onClick={() => setView('Tools')}>Tools</button>
+            <button className="mr-20 xl:mr-24 mt-2 text-zinc-300 hover:text-blue-400 text-lg cursor-pointer" onClick={() => setView('Tools')}>Tools</button>
           </li>
           {/* <li>
             <button className="mr-12 xl:mr-20 text-base text-white bg-green-600 hover:bg-green-200 hover:text-amber-600 h-11 w-32 rounded py-2 px-4 shadow-lg cursor-pointer" onClick={() => setView('Contact')}>Contact Me</button>
