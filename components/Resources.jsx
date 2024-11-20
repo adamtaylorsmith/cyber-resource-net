@@ -17,7 +17,7 @@ const Resources = () => {
   return (
     <div className='bg-zinc-900 h-full'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Online Resources</h1>
+      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Online Cybersecurity Resources</h1>
 
 
 {/* ****************************************************************************************************************************** */}

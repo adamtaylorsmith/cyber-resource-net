@@ -5,7 +5,7 @@ import Reports from '../components/Reports'
 import Tools from '../components/Tools'
 import Footer from '../components/Footer'
 import Resources from '../components/Resources'
-import Applications from '../components/Applcations'
+import Applications from '../components/Applications'
 import Header from '../components/Header'
 
 function App() {
@@ -25,31 +25,12 @@ function App() {
   return (
     <>
       
-      <div className='bg-zinc-900 w-screen h-screen mb-10'>
+      <div className='bg-zinc-900 w-screen h-screen pb-10'>
         
         <Header setView={setView} />
 
-          {/* <ul className="flex justify-center">
-            <li>
-              <button className="text-sm md:text-lg mx-5 md:mx-12 mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Home')}>Cybersecurity</button>
-            </li>
-            <li>
-              <button className="text-sm md:text-lg mx-5 md:mx-12 mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Applications')}>Applications</button>
-            </li>
-            <li>
-              <button className="text-sm md:text-lg mx-5 md:mx-12 mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Reports')}>Reports</button>
-            </li>
-            <li>
-              <button className="text-sm md:text-lg mx-5 md:mx-12 mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Resources')}>Resources</button>
-            </li>
-            <li>
-              <button className="text-sm md:text-lg mx-5 md:mx-12 mt-10 hover:text-green-600 cursor-pointer font-bold" onClick={() => setView('Tools')}>Tools</button>
-            </li>
-          </ul> */}
-
         <div>
           <br /><br />
-
           {myComponents[view]}
         </div>
 
@@ -58,6 +39,7 @@ function App() {
         </div>
 
       </div>
+
       <style>{`
       .hideMenuNav {
         display: none;

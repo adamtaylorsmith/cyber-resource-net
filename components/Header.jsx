@@ -6,11 +6,11 @@ const Header = ({setView}) => {
 
   return (
     <div className="flex items-center justify-between py-8">
-      <button className="text-xl font-bold ml-6 md:ml-16 text-green-500 hover:text-green-400 cursor-pointer mt-1" onClick={() => setView('Home')}>Cyber-Resource</button>
+      <button className="text-xl font-bold ml-6 md:ml-12 text-green-500 hover:text-green-400 cursor-pointer mt-1" onClick={() => setView('Home')}><span className="font-mono">Cyber Resource</span></button>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
-            className="HAMBURGER-ICON space-y-2 mr-8 cursor-pointer"
+            className="HAMBURGER-ICON space-y-2 mr-12 cursor-pointer"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
             <span className="block h-0.5 w-8 bg-gray-300"></span>
@@ -38,10 +38,10 @@ const Header = ({setView}) => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-zinc-300 text-lg" onClick={() => {setView('Home');setIsNavOpen(false)}}>Home</button>
+                <button className="text-zinc-300 text-lg" onClick={() => {setView('Home');setIsNavOpen(false)}}>Cyber Resource Home</button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className=" text-zinc-300 text-lg" onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications - Official Docs</button>
+                <button className=" text-zinc-300 text-lg" onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications&#39; Docs</button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
                 <button className=" text-zinc-300 text-lg" onClick={() => {setView('Reports');setIsNavOpen(false)}}>Example Reports</button>
@@ -58,16 +58,16 @@ const Header = ({setView}) => {
 
         <ul className="DESKTOP-MENU hidden lg:flex">
           <li>
-            <button className="mr-20 xl:mr-40 mt-2 text-zinc-300 hover:text-green-500 font-bold text-lg cursor-pointer" onClick={() => setView('Applications')}>Applications</button>
+            <button className="mr-16 xl:mr-20 mt-2 text-zinc-300 hover:text-green-500 text-lg cursor-pointer" onClick={() => setView('Applications')}>Applications</button>
           </li>
           <li>
-            <button className="mr-20 xl:mr-40 mt-2 text-zinc-300 hover:text-green-500 font-bold text-lg cursor-pointer" onClick={() => setView('Reports')}>Reports</button>
+            <button className="mr-16 xl:mr-20 mt-2 text-zinc-300 hover:text-green-500 text-lg cursor-pointer" onClick={() => setView('Reports')}>Reports</button>
           </li>
           <li>
-            <button className="mr-20 xl:mr-40 mt-2 text-zinc-300 hover:text-green-500 font-bold text-lg cursor-pointer" onClick={() => setView('Resources')}>Resources</button>
+            <button className="mr-16 xl:mr-20 mt-2 text-zinc-300 hover:text-green-500 text-lg cursor-pointer" onClick={() => setView('Resources')}>Resources</button>
           </li>
           <li>
-            <button className="mr-20 xl:mr-36 mt-2 text-zinc-300 hover:text-green-500 font-bold text-lg cursor-pointer" onClick={() => setView('Tools')}>Tools</button>
+            <button className="mr-20 xl:mr-24 mt-2 text-zinc-300 hover:text-green-500 text-lg cursor-pointer" onClick={() => setView('Tools')}>Tools</button>
           </li>
           {/* <li>
             <button className="mr-12 xl:mr-20 text-base text-white bg-green-600 hover:bg-green-200 hover:text-amber-600 h-11 w-32 rounded py-2 px-4 shadow-lg cursor-pointer" onClick={() => setView('Contact')}>Contact Me</button>
@@ -104,7 +104,7 @@ const Header = ({setView}) => {
   //     <nav>
   //       <section className="MOBILE-MENU flex md:hidden">
   //         <div className="flex pt-6">
-  //           <div className="text-lg ml-4 mt mr-36 sm:mr-80 font-bold text-green-600">Cyber-Resource</div>
+  //           <div className="text-lg ml-4 mt mr-36 sm:mx-72 font-bold text-green-600">Cyber-Resource</div>
   //           <div className="HAMBURGER-ICON space-y-2 mr-8 mt-1 cursor-pointer" onClick={() => setIsNavOpen((prev) => !prev)}>
   //             <span className="block h-0.5 w-8 animate-pulse bg-gray-200"></span>
   //             <span className="block h-0.5 w-8 animate-pulse bg-gray-200"></span>
