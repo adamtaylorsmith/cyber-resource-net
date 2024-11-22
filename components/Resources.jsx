@@ -17,37 +17,30 @@ const Resources = () => {
   return (
     <div className='bg-zinc-900 h-full'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Online Cybersecurity Resources</h1>
+      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Online Resources</h1>
+
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-semibold text-blue-400'>__ Analysis and Preparation Resources:</h1>
+
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href="https://www.scamwatch.gov.au/"><span className='text-base font-semibold text-zinc-300'>Australia Anti-Scam Centre</span></a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html">Cisco Secure Architecture for Everyone</a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href={Control}><span className='text-base font-semibold text-zinc-300'>Control Categories (.pdf)</span></a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.sans.org/blog/cybersecurity-podcast-roundup/">Cybersecurity Podcasts</a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href="https://cyware.com/cyber-security-news-articles"><span className='text-base font-semibold text-zinc-300'>Cyware Latest Cybersecurity News and Articles</span></a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200 text-base" target="_blank" rel="noreferrer" href={Glossary}>Google Cybersecurity Glossary (.pdf)</a>
+      </div>
 
 
-{/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 leading-relaxed text-xl font-bold text-green-500 underline'>Analysis and Preparation:</h2>
-      
-      {/* <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet" target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500 ">Active Directory Exploitation Cheat Sheet</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://github.com/Cloud-Architekt/AzureAD-Attack-Defense" target="_blank" rel="noreferrer" className=" text-zinc-200 hover:text-blue-500 ">Azure Active Directory Attack and Defend</a>
-      </div> */}
-      
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://www.scamwatch.gov.au/" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Australia Anti-Scam Centre</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html" target="_blank" rel="noreferrer" className=" text-zinc-200 hover:text-blue-500 ">Cisco SAFE - Secure Architecture for Everyone </a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href={Control} target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500 ">Control Categories</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://www.sans.org/blog/cybersecurity-podcast-roundup/" target="_blank" rel="noreferrer" className=" text-zinc-200 hover:text-blue-500 ">Cybersecurity Podcasts</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://cyware.com/cyber-security-news-articles" target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500 ">Cyware Latest Cybersecurity News and Articles</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href={Glossary} target="_blank" rel="noreferrer" className=" text-zinc-200 hover:text-blue-500 ">Google Cybersecurity Glossary (.pdf)</a>
-      </div>
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
         <a href="https://engage.mitre.org/starter-kit/" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">MITRE Cyber Defense Starter Kit</a>
       </div>
@@ -224,7 +217,14 @@ const Resources = () => {
       </div>
       
 
-{/* ****************************************************************************************************************************** */}
+{/* ******************************************************************************************************************************
+  {/* <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
+        <a href="https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet" target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500 ">Active Directory Exploitation Cheat Sheet</a>
+      </div>
+      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
+        <a href="https://github.com/Cloud-Architekt/AzureAD-Attack-Defense" target="_blank" rel="noreferrer" className=" text-zinc-200 hover:text-blue-500 ">Azure Active Directory Attack and Defend</a>
+      </div> 
+*/}
       <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-5 leading-relaxed text-xl font-bold text-green-500 pt-10 underline'>Vulnerabilities:</h2>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
@@ -252,6 +252,7 @@ const Resources = () => {
         <a href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Vulnerabilities Security Update Guide - Microsoft</a>
       </div>
     </div>
+
 
   )
 }

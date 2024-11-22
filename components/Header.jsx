@@ -6,7 +6,7 @@ const Header = ({setView}) => {
 
   return (
     <div className="flex items-center justify-between py-8">
-      <button className="text-xl font-bold ml-6 md:ml-12 text-green-500 hover:text-green-400 cursor-pointer mt-1" onClick={() => setView('Home')}><span className="font-mono">Cyber Resource</span></button>
+      <button className="text-xl font-bold ml-6 md:ml-12 text-green-500 hover:text-green-300 cursor-pointer mt-1" onClick={() => setView('Home')}><span className="font-mono">Cyber-Resource.net</span></button>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -58,16 +58,16 @@ const Header = ({setView}) => {
 
         <ul className="DESKTOP-MENU hidden lg:flex">
           <li>
-            <button className="mr-16 xl:mr-20 mt-2 text-zinc-200 hover:text-zinc-500 text-lg cursor-pointer" onClick={() => setView('Applications')}>Applications</button>
+            <button className="mr-16 xl:mr-20 mt-2 text-zinc-200 hover:text-blue-400 text-lg cursor-pointer" onClick={() => setView('Applications')}>Applications</button>
           </li>
           <li>
-            <button className="mr-16 xl:mr-20 mt-2 text-zinc-200 hover:text-zinc-500 text-lg cursor-pointer" onClick={() => setView('Reports')}>Reports</button>
+            <button className="mr-16 xl:mr-20 mt-2 text-zinc-200 hover:text-blue-400 text-lg cursor-pointer" onClick={() => setView('Reports')}>Reports</button>
           </li>
           <li>
-            <button className="mr-16 xl:mr-20 mt-2 text-zinc-200 hover:text-zinc-500 text-lg cursor-pointer" onClick={() => setView('Resources')}>Resources</button>
+            <button className="mr-16 xl:mr-20 mt-2 text-zinc-200 hover:text-blue-400 text-lg cursor-pointer" onClick={() => setView('Resources')}>Resources</button>
           </li>
           <li>
-            <button className="mr-20 xl:mr-24 mt-2 text-zinc-200 hover:text-zinc-500 text-lg cursor-pointer" onClick={() => setView('Tools')}>Tools</button>
+            <button className="mr-20 xl:mr-24 mt-2 text-zinc-200 hover:text-blue-400 text-lg cursor-pointer" onClick={() => setView('Tools')}>Tools</button>
           </li>
           {/* <li>
             <button className="mr-12 xl:mr-20 text-base text-white bg-green-600 hover:bg-green-200 hover:text-amber-600 h-11 w-32 rounded py-2 px-4 shadow-lg cursor-pointer" onClick={() => setView('Contact')}>Contact Me</button>

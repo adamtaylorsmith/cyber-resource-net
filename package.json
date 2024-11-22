@@ -1,6 +1,6 @@
 {
-  "name": "cyber-resources-vite",
-  "private": true,
+  "name": "cyber-resources-net",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

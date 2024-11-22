@@ -24,77 +24,99 @@ const Reports = () => {
   return ( 
     <div className='bg-zinc-900 h-full'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Example Cybersecurity Reports</h1>
+      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Example Reports</h1>
+
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-semibold text-blue-400'>__ Analysis and Preparation Reports:</h1>
+
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href={AccessControl}><span className='text-base font-semibold text-zinc-300'>Access Controls Worksheet</span>&nbsp;&nbsp;(.pdf)</a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200 text-base" target="_blank" rel="noreferrer" href={Documentation}>Best Practices for Effective Documentation (.pdf)</a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href={Controls}><span className='text-base font-semibold text-zinc-300'>Controls and Compliance</span>&nbsp;&nbsp;(.pdf)</a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200" target="_blank" rel="noreferrer" href={HomeAsset}><span className='text-base font-semibold text-zinc-300'>Home Asset Inventory</span>&nbsp;&nbsp;(.pdf)</a>
+      </div>
+      <div className="py-1.5 flex-row flex flex-nowrap">
+        <a className="rounded px-4 md:px-6 py-3 
+        ml-10 md:ml-14 lg:ml-48 xl:ml-72 
+        w-2/3 bg-slate-800 hover:bg-slate-700 text-base leading-relaxed text-slate-300 hover:text-slate-400" target="_blank" rel="noreferrer" href="https://csbygb.gitbook.io/pentips/reporting/pentest-report"><span className='font-semibold text-zinc-300'>How To Report Your Findings</span></a>
+
+        <a href="https://www.hacker101.com/resources/articles/writing_a_report_and_cvss" target="_blank" rel="noreferrer" className="px-4 pb-3 pt-3 ml-1.5 w-1/5 md:w-1/4 mr-10 md:mr-14 lg:mr-48 xl:mr-72 rounded bg-slate-800 hover:bg-slate-700 text-sm leading-relaxed text-slate-300 hover:text-slate-400">
+          <div className='flex-row flex pt-1'>
+            <div className='invisible md:visible'>Report (2)</div>
+            <div className='visible md:invisible order-first'>(2)</div>
+          </div>
+        </a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200" target="_blank" rel="noreferrer" href={USB}><span className='text-base font-semibold text-zinc-300'>Parking Lot USB Exercise</span>&nbsp;&nbsp;(.pdf)</a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold " target="_blank" rel="noreferrer" href={Phishing}><span className='text-base font-semibold text-zinc-300'>Phishing Exercise with Playbook</span>&nbsp;&nbsp;(.pdf)</a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200" target="_blank" rel="noreferrer" href="https://github.com/juliocesarfort/public-pentesting-reports"><span className='text-base font-semibold text-zinc-300'>Published Public Penetration Test Reports</span></a>
+      </div>
+      <div className="py-1.5 flex-row flex flex-nowrap">
+        <a className="rounded px-4 md:px-6 py-3 
+        ml-10 md:ml-14 lg:ml-48 xl:ml-72 
+        w-2/3 bg-slate-800 hover:bg-slate-700 text-base leading-relaxed text-slate-300 hover:text-slate-400" target="_blank" rel="noreferrer" href={RiskAssess}><span className='font-semibold text-zinc-300'>Risk Assessment Exercise (.pdf)</span></a>
+        <a href={RiskControl} target="_blank" rel="noreferrer" className="px-4 pb-3 pt-3 ml-1.5 w-1/5 md:w-1/4 mr-10 md:mr-14 lg:mr-48 xl:mr-72 rounded bg-slate-800 hover:bg-slate-700 text-sm leading-relaxed text-slate-300 hover:text-slate-400">
+          <div className='flex-row flex pt-1'>
+            <div className='invisible md:visible'>Risk (2) (.pdf)</div>
+            <div className='visible md:invisible order-first'>(2)</div>
+          </div>
+        </a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200" target="_blank" rel="noreferrer" href={RiskRegister}><span className='text-base font-semibold text-zinc-300'>Risk Register (.pdf)</span></a>
+      </div>
+      <div className="py-1.5 mb-12">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href={VulnAssess}><span className='text-base font-semibold'>Vulnerability Assessment (.pdf)</span></a>
+      </div>
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-5 underline leading-relaxed text-xl font-bold text-green-500'>Analysis and Preparation:</h2>
 
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={AccessControl} target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Access Controls Worksheet (.pdf)</a>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-semibold text-blue-400'>__ Incident and Response Reports:</h1>
+
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-gray-400 flex font-semibold" target="_blank" rel="noreferrer" href={AnalyzeNetworkAttack}><span className='text-base font-semibold text-zinc-300'>Analyze a Network Attack (.pdf)</span></a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={Documentation} target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Best Practices for effective documentation (.pdf)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={Controls} target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Controls and Compliance (.pdf)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={HomeAsset} target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Home Asset Inventory (.pdf)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://csbygb.gitbook.io/pentips/reporting/pentest-report" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">How to report your findings </a><a href="https://www.hacker101.com/resources/articles/writing_a_report_and_cvss" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">(2)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={USB} target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Parking Lot USB exercise (.pdf)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={Phishing} target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Phishing Exercise with Playbook (.pdf)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://github.com/juliocesarfort/public-pentesting-reports" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Published Public Penetration Test Reports</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={RiskAssess} target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Risk Assessment exercise (.pdf) </a><a href={RiskControl} target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">(2)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={RiskRegister} target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Risk Register (.pdf)</a>
-      </div>
-      {/* <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={SecurityRisk} target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Security Risk Assessment (.pdf)</a>
-      </div> */}
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={VulnAssess} target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Vulnerability Assessment (.pdf)</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href={DataLeak}><span className='text-base font-semibold'>Data Leak Worksheet (.pdf)</span></a>
       </div>
 
 
-{/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-5 leading-relaxed text-xl font-bold text-green-500 pt-10 underline'>Incident and Response:</h2>
+      <div className="py-1.5 flex-row flex flex-nowrap">
+        <a className="rounded px-4 md:px-6 py-3 
+        ml-10 md:ml-14 lg:ml-48 xl:ml-72 
+        w-2/3 bg-slate-800 hover:bg-slate-700 text-base leading-relaxed text-gray-300 hover:text-gray-400" target="_blank" rel="noreferrer" href={IncidentInitial}><span className='font-semibold '>Incident Initial Report (.pdf)</span></a>
+        <a href={FinalReport} target="_blank" rel="noreferrer" className="px-4 pb-3 pt-3 ml-1.5 w-1/5 md:w-1/4 mr-10 md:mr-14 lg:mr-48 xl:mr-72 rounded bg-slate-800 hover:bg-slate-700 text-sm leading-relaxed text-gray-300 hover:text-gray-400">
+          <div className='flex-row flex pt-1'>
+            <div className='invisible md:visible'>Final Report (.pdf)</div>
+            <div className='visible md:invisible order-first'>(2)</div>
+          </div>
+        </a>
+      </div>
 
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={AnalyzeNetworkAttack} target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Analyze a Network Attack (.pdf)</a>
+      <div className="py-1.5 flex-row flex flex-nowrap">
+        <a className="rounded px-4 md:px-6 py-3 
+        ml-10 md:ml-14 lg:ml-48 xl:ml-72 
+        w-2/3 bg-slate-800 hover:bg-slate-700 text-base leading-relaxed text-slate-300 hover:text-slate-400" target="_blank" rel="noreferrer" href={IncidentReport}><span className='font-semibold text-zinc-300'>Incident Report Analysis (.pdf)</span></a>
+        <a href={NIST_CSF_Incident} target="_blank" rel="noreferrer" className="px-4 pb-3 pt-3 ml-1.5 w-1/5 md:w-1/4 mr-10 md:mr-14 lg:mr-48 xl:mr-72 rounded bg-slate-800 hover:bg-slate-700 text-sm leading-relaxed text-slate-300 hover:text-slate-400">
+          <div className='flex-row flex pt-1'>
+            <div className='invisible md:visible'>NIST CSF (.pdf)</div>
+            <div className='visible md:invisible order-first'>(2)</div>
+          </div>
+        </a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={DataLeak} target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Data Leak Worksheet (.pdf)</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 gray flex font-semibold" target="_blank" rel="noreferrer" href={SecurityIncident}><span className='text-base font-semibold text-gray-300 hover:text-gray-400'>Security Incident Report (.pdf)</span></a>
       </div>
-      
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={FinalReport} target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Incident Final Report (.pdf)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={IncidentInitial} target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Incident Initial Report (.pdf)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={IncidentReport} target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Incident Report Analysis (.pdf)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={NIST_CSF_Incident} target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Incident Report Analysis using NIST CSF (.pdf)</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href={SecurityIncident} target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Security Incident Report (.pdf)</a>
-      </div>
-      
-      
-      
     </div>
   )
 }

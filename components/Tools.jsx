@@ -5,20 +5,20 @@
 const Tools = () => {
 
   return (
-    <div className='bg-zinc-900 h-full text-zinc-400'>
+    <div className='bg-zinc-900 h-full'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4">Online Cybersecurity Tools</h1>
+      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Online Tools</h1>
 
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-semibold text-blue-400'>__ Analysis Tools:</h1>
 
-{/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-5 leading-relaxed text-xl font-bold text-green-500 underline'>Analysis:</h2>
-
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://www.cisa.gov/resources-tools/resources/free-cybersecurity-services-and-tools" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">CISA Services and Tools</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href="https://www.cisa.gov/resources-tools/resources/free-cybersecurity-services-and-tools"><span className='text-base font-semibold text-zinc-300'>CISA Services and Tools</span></a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://crt.sh/" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Crt.sh - Certificate Search</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://crt.sh/">Crt.sh - Certificate Search</a>
       </div>
+
+   
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
         <a href="https://niccs.cisa.gov/workforce-development/cyber-career-pathways-tool" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500">Cyber Career Pathways Tool</a>
       </div>
