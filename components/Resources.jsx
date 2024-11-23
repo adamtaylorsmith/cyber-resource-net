@@ -15,64 +15,58 @@ import LinuxCheat from '../src/images/LinuxCheatsheet.png'
 
 const Resources = () => {
   return (
-    <div className='bg-zinc-900 h-full'>
+    <div className='bg-stone-900 h-full'>
 
       <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Online Resources</h1>
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-semibold text-blue-400'>__ Analysis and Preparation Resources:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Analysis and Preparation Resources:</h1>
 
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href="https://www.scamwatch.gov.au/"><span className='text-base font-semibold text-zinc-300'>Australia Anti-Scam Centre</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.scamwatch.gov.au/"><span className='text-base font-medium text-zinc-300'>Australia Anti-Scam Centre</span></a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html">Cisco Secure Architecture for Everyone</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html">Cisco Secure Architecture for Everyone</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href={Control}><span className='text-base font-semibold text-zinc-300'>Control Categories (.pdf)</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href={Control}><span className='text-base font-medium text-zinc-300'>Control Categories (.pdf)</span></a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.sans.org/blog/cybersecurity-podcast-roundup/">Cybersecurity Podcasts</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.sans.org/blog/cybersecurity-podcast-roundup/">Cybersecurity Podcasts</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href="https://cyware.com/cyber-security-news-articles"><span className='text-base font-semibold text-zinc-300'>Cyware Latest Cybersecurity News and Articles</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://cyware.com/cyber-security-news-articles"><span className='text-base font-medium text-zinc-300'>Cyware Latest Cybersecurity News and Articles</span></a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200 text-base" target="_blank" rel="noreferrer" href={Glossary}>Google Cybersecurity Glossary (.pdf)</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href={Glossary}>Google Cybersecurity Glossary (.pdf)</a>
       </div>
 
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://engage.mitre.org/starter-kit/"><span className='text-base font-medium text-zinc-300'>MITRE Cyber Defense Starter Kit</span></a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://staysafeonline.org/resources/">NCA Stay Safe Online</a>
+      </div>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF"><span className='text-base font-medium text-zinc-300'>NSA Best Practices for Securing Your Home Network (.pdf)</span></a>
+      </div>
 
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://engage.mitre.org/starter-kit/" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">MITRE Cyber Defense Starter Kit</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://github.com/OWASP/SecurityShepherd"><span className='text-base font-medium text-zinc-300'>OWASP Security Shepherd - Application Security Training Platform</span></a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://staysafeonline.org/resources/" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">NCA Stay Safe Online</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.malware-traffic-analysis.net/index.html">Packet Capture files and Malware Samples</a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">NSA Best Practices for Securing Your Home Network (.pdf)</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.phishing.org/"><span className='text-base font-medium text-zinc-300'>Phishing Prevention and Resources</span></a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://www.isecom.org/OSSTMM.3.pdf" target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500 ">Open Source Security Testing Methodology Manual</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://phishingquiz.withgoogle.com/">Phishing Quiz from Google</a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://github.com/OWASP/SecurityShepherd" target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500 ">OWASP Security Shepherd - Application Security Training Platform</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.ready.gov/"><span className='text-base font-medium text-zinc-300'>Ready.gov</span></a>
       </div>
-      {/*   <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://www.sans.org/newsletters/ouch/" target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500 ">OUCH! Security Awareness Newsletter</a>
-      </div> */}
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://www.malware-traffic-analysis.net/index.html" target="_blank" rel="noreferrer" className=" text-zinc-200 hover:text-blue-500 ">Packet Capture files and Malware Samples</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://www.phishing.org/" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Phishing Prevention and Resources</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://phishingquiz.withgoogle.com/" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">Phishing Quiz from Google</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://www.ready.gov/" target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500">Ready.gov</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-80 pb-3 text-base leading-relaxed">
-        <a href="https://niccs.cisa.gov/workforce-development/nice-framework" target="_blank" rel="noreferrer" className=" text-blue-200 hover:text-blue-500">Workforce Framework for Cybersecurity (NICE)</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://niccs.cisa.gov/workforce-development/nice-framework">Workforce Framework for Cybersecurity (NICE)</a>
       </div>
 
 {/* ***************************************************************************************************************************88 */}

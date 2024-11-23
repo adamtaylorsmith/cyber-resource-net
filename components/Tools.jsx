@@ -5,60 +5,66 @@
 const Tools = () => {
 
   return (
-    <div className='bg-zinc-900 h-full'>
+    <div className='bg-stone-900 h-full'>
 
       <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Online Tools</h1>
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-semibold text-blue-400'>__ Analysis Tools:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Analysis Tools:</h1>
 
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-slate-400 flex font-semibold" target="_blank" rel="noreferrer" href="https://www.cisa.gov/resources-tools/resources/free-cybersecurity-services-and-tools"><span className='text-base font-semibold text-zinc-300'>CISA Services and Tools</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.cisa.gov/resources-tools/resources/free-cybersecurity-services-and-tools"><span className='text-base font-medium text-zinc-300'>CISA Services and Tools</span></a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-gray-800 hover:bg-gray-700 hover:text-zinc-300 flex font-semibold text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://crt.sh/">Crt.sh - Certificate Search</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://crt.sh/">Crt.sh Certificate Search</a>
       </div>
-
-   
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://niccs.cisa.gov/workforce-development/cyber-career-pathways-tool" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500">Cyber Career Pathways Tool</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://niccs.cisa.gov/workforce-development/cyber-career-pathways-tool"><span className='text-base font-medium text-zinc-300'>Cyber Career Pathways Tool</span></a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://cyberchef.org/" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500 ">CyberChef - Cyber Swiss Army Knife</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://cyberchef.org/  ">CyberChef Cyber Swiss Army Knife</a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://www.google.com/advanced_image_search" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">Google Advanced Image Search</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.google.com/advanced_image_search"><span className='text-base font-medium text-zinc-300'>Google Advanced Image Search</span></a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://www.calculator.net/ip-subnet-calculator.html" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500  ">IP Subnet Calculator</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.calculator.net/ip-subnet-calculator.html">IP Subnet Calculator</a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/networking-utilities" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500">Microsoft Sysinternals Networking Utilities</a><a href="https://github.com/SwiftOnSecurity/sysmon-config" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500">&nbsp;(2)</a>
+      <div className="py-1.5 flex-row flex flex-nowrap">
+        <a className="rounded px-4 md:px-6 py-3 
+        ml-10 md:ml-14 lg:ml-48 xl:ml-72 
+        w-1/2 bg-zinc-800 hover:bg-zinc-700 text-base leading-relaxed text-zinc-300 hover:text-zinc-400" target="_blank" rel="noreferrer" href="https://learn.microsoft.com/en-us/sysinternals/downloads/networking-utilities"><span className='text- base font-medium text-zinc-200'>Microsoft Sysinternals Networking Utilities</span></a>
+        <a href="https://github.com/SwiftOnSecurity/sysmon-config" target="_blank" rel="noreferrer" className="px-4 py-3 ml-1.5 w-1/6 md:w-1/5 rounded bg-zinc-800 hover:bg-zinc-700 text-sm leading-relaxed text-zinc-300 hover:text-zinc-400">
+          <div className='flex-row flex pt-1'>
+            <div className='invisible md:visible'>Sysinternals (2)</div>
+            <div className='visible md:invisible order-first'>(2)</div>
+          </div>
+        </a>
+        <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/file-and-disk-utilities" target="_blank" rel="noreferrer" className="px-4 pb-3 pt-3 ml-1.5 w-1/6 md:w-1/5 mr-10 md:mr-14 lg:mr-48 xl:mr-72 rounded bg-zinc-800 hover:bg-zinc-700 text-sm leading-relaxed text-zinc-300 hover:text-zinc-400">
+          <div className='flex-row flex pt-1'>
+            <div className='invisible md:visible'>Sysinternals (3)</div>
+            <div className='visible md:invisible order-first'>(3)</div>
+          </div>
+        </a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://www.shodan.io/" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500  ">Shodan - Search engine for internet-connected devices</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.shodan.io/">Shodan Search engine for internet-connected devices</a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://ui.ctsearch.entrust.com/ui/ctsearchui" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500 ">SSL/TLS Certificate Search</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://ui.ctsearch.entrust.com/ui/ctsearchui"><span className='text-base font-medium text-zinc-300'>SSL/TLS Certificate Search</span></a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/file-and-disk-utilities" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500  ">Sysinternals File and Disk Utilities</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://github.com/SwiftOnSecurity/sysmon-config">Sysmon configuration file template</a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/networking-utilities" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500  ">Sysinternals Networking Utilities</a>
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://sectools.org/?sort=rating"><span className='text-base font-medium text-zinc-300'>Top 125 Network Security Tools</span></a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://github.com/SwiftOnSecurity/sysmon-config" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500  ">Sysmon configuration file template</a>
+      <div className="py-1.5 mb-12">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.wireshark.org/tools/oui-lookup.html">Wireshark OUI Lookup</a>
       </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://sectools.org/?sort=rating" target="_blank" rel="noreferrer" className="text-blue-200 hover:text-blue-500  ">Top 125 Network Security Tools</a>
-      </div>
-      <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
-        <a href="https://www.wireshark.org/tools/oui-lookup.html" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500  ">Wireshark OUI Lookup</a>
-      </div>
-      
 
 {/* ****************************************************************************************************************************** */}
-      <h2 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-5 leading-relaxed text-xl font-bold text-green-500 pt-10 underline'>Incidents and Response:</h2>
+
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Incidents and Response Tools:</h1>
 
       <div className="mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-3 text-base leading-relaxed">
         <a href="https://abuse.ch/" target="_blank" rel="noreferrer" className="text-zinc-200 hover:text-blue-500  ">Abuse.ch - Sharing malware samples, malware sites, IOCs, botnets, SSLs</a>

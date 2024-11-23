@@ -27,7 +27,7 @@ function App() {
       
       <div className='bg-zinc-900 w-screen h-screen pb-10'>
         
-        <Header setView={setView} />
+        <Header setView={setView} view={view} />
 
         <div>
           <br /><br />
