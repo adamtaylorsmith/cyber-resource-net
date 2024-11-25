@@ -32,13 +32,13 @@ const Reports = () => {
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href={AccessControl}><span className='text-base font-medium text-zinc-300'>Access Controls Worksheet</span>&nbsp;&nbsp;(.pdf)</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href={Documentation}>Best Practices for Effective Documentation (.pdf)</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href={Documentation}>Best Practices for Effective Documentation (.pdf)</a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href={Controls}><span className='text-base font-medium text-zinc-300'>Controls and Compliance</span>&nbsp;&nbsp;(.pdf)</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200" target="_blank" rel="noreferrer" href={HomeAsset}><span className='text-base font-medium text-zinc-300'>Home Asset Inventory</span>&nbsp;&nbsp;(.pdf)</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200" target="_blank" rel="noreferrer" href={HomeAsset}><span className='text-base font-medium text-zinc-300'>Home Asset Inventory</span>&nbsp;&nbsp;(.pdf)</a>
       </div>
       <div className="py-1.5 flex-row flex flex-nowrap">
         <a className="rounded px-4 md:px-6 py-3 
@@ -52,13 +52,13 @@ const Reports = () => {
         </a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200" target="_blank" rel="noreferrer" href={USB}><span className='text-base font-medium text-zinc-300'>Parking Lot USB Exercise</span>&nbsp;&nbsp;(.pdf)</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200" target="_blank" rel="noreferrer" href={USB}><span className='text-base font-medium text-zinc-300'>Parking Lot USB Exercise</span>&nbsp;&nbsp;(.pdf)</a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium " target="_blank" rel="noreferrer" href={Phishing}><span className='text-base font-medium text-zinc-300'>Phishing Exercise with Playbook</span>&nbsp;&nbsp;(.pdf)</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200" target="_blank" rel="noreferrer" href="https://github.com/juliocesarfort/public-pentesting-reports"><span className='text-base font-medium text-zinc-300'>Published Public Penetration Test Reports</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200" target="_blank" rel="noreferrer" href="https://github.com/juliocesarfort/public-pentesting-reports"><span className='text-base font-medium text-zinc-300'>Published Public Penetration Test Reports</span></a>
       </div>
       <div className="py-1.5 flex-row flex flex-nowrap">
         <a className="rounded px-4 md:px-6 py-3 
@@ -72,7 +72,7 @@ const Reports = () => {
         </a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 hover:text-zinc-300 flex font-medium text-zinc-200" target="_blank" rel="noreferrer" href={RiskRegister}><span className='text-base font-medium text-zinc-300'>Risk Register (.pdf)</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200" target="_blank" rel="noreferrer" href={RiskRegister}><span className='text-base font-medium text-zinc-300'>Risk Register (.pdf)</span></a>
       </div>
       <div className="py-1.5 mb-12">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href={VulnAssess}><span className='text-base font-medium'>Vulnerability Assessment (.pdf)</span></a>
@@ -83,7 +83,7 @@ const Reports = () => {
       <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Incident and Response Reports:</h1>
 
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 text-neutral-300 hover:text-neutral-400 flex font-medium" target="_blank" rel="noreferrer" href={AnalyzeNetworkAttack}><span className='text-base font-medium text-zinc-300'>Analyze a Network Attack (.pdf)</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-neutral-300 hover:text-neutral-400 flex font-medium" target="_blank" rel="noreferrer" href={AnalyzeNetworkAttack}><span className='text-base font-medium text-zinc-300'>Analyze a Network Attack (.pdf)</span></a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href={DataLeak}><span className='text-base font-medium'>Data Leak Worksheet (.pdf)</span></a>
@@ -114,7 +114,7 @@ const Reports = () => {
         </a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-neutral-700 neutral flex font-medium" target="_blank" rel="noreferrer" href={SecurityIncident}><span className='text-base font-medium text-neutral-300 hover:text-neutral-400'>Security Incident Report (.pdf)</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 neutral flex font-medium" target="_blank" rel="noreferrer" href={SecurityIncident}><span className='text-base font-medium text-neutral-300 hover:text-neutral-400'>Security Incident Report (.pdf)</span></a>
       </div>
     </div>
   )
