@@ -15,7 +15,7 @@ import LinuxCheat from '../src/images/LinuxCheatsheet.png'
 
 const Resources = () => {
   return (
-    <div className='bg-stone-900 h-full'>
+    <div className='bg-zinc-900 h-full'>
 
       <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Online Resources</h1>
 
@@ -51,7 +51,7 @@ const Resources = () => {
       </div>
 
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://github.com/OWASP/SecurityShepherd"><span className='text-base font-medium text-zinc-300'>OWASP Security Shepherd - Application Security Training Platform</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://github.com/OWASP/SecurityShepherd"><span className='text-base font-medium text-zinc-300'>OWASP Security Shepherd __ Application Security Training Platform</span></a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.malware-traffic-analysis.net/index.html">Packet Capture files and Malware Samples</a>
@@ -131,10 +131,10 @@ const Resources = () => {
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href={Incident}><span className='text-base font-medium text-zinc-300'>NIST Incident Handling Guide (.pdf)</span></a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://nvd.nist.gov/">NIST NVD - National Vulnerability Database</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://nvd.nist.gov/">NIST NVD __ National Vulnerability Database</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href={RiskAssessment}><span className='text-base font-medium text-zinc-300'>NIST Performing Risk Assessments - SP 800-30 (.pdf)</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href={RiskAssessment}><span className='text-base font-medium text-zinc-300'>NIST Performing Risk Assessments __ SP 800-30 (.pdf)</span></a>
       </div>
       <div className="py-1.5 mb-12">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST Security and Privacy Controls</a>
@@ -177,7 +177,7 @@ const Resources = () => {
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://talosintelligence.com/">Cisco Talos Threat Intelligence</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://thedfirreport.com/"><span className='text-base font-medium text-zinc-300'>DFIR Report - Intrusions and Threat Intelligence</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://thedfirreport.com/"><span className='text-base font-medium text-zinc-300'>DFIR Report __ Intrusions and Threat Intelligence</span></a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.exploit-db.com/">Exploit Database</a>
@@ -189,7 +189,7 @@ const Resources = () => {
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://gtfobins.github.io/">GTFOBins - Bypass local security restrictions</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://labs.inquest.net/"><span className='text-base font-medium text-zinc-300'>InQuest Labs - File data and threat intelligence</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://labs.inquest.net/"><span className='text-base font-medium text-zinc-300'>InQuest Labs __ File data and threat intelligence</span></a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://github.com/center-for-threat-informed-defense/adversary_emulation_library">Library of adversary emulation plans</a>
@@ -242,7 +242,7 @@ const Resources = () => {
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"><span className='text-base font-medium text-zinc-300'>CISA Known Exploited Vulnerabilities Catalog</span></a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.cve.org/">CVE - Identify, define, and catalog publicly disclosed cybersecurity vulnerabilities</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.cve.org/">CVE __ Identify, define, and catalog publicly disclosed cybersecurity vulnerabilities</a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://cwe.mitre.org/"><span className='text-base font-medium text-zinc-300'>Most Dangerous software and hardware weaknesses</span></a>

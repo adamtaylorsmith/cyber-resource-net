@@ -22,7 +22,7 @@ import RiskControl from '../src/assets/Controls_Compliance_Checklist.pdf'
 
 const Reports = () => {
   return ( 
-    <div className='bg-stone-900 h-full'>
+    <div className='bg-zinc-900 h-full'>
 
       <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Example Reports</h1>
 
@@ -93,8 +93,8 @@ const Reports = () => {
       <div className="py-1.5 flex-row flex flex-nowrap">
         <a className="rounded px-4 md:px-6 py-3 
         ml-10 md:ml-14 lg:ml-48 xl:ml-72 
-        w-2/3 bg-zinc-800 hover:bg-zinc-700 text-base leading-relaxed text-neutral-300 hover:text-neutral-400" target="_blank" rel="noreferrer" href={IncidentInitial}><span className='font-medium '>Incident Initial Report (.pdf)</span></a>
-        <a href={FinalReport} target="_blank" rel="noreferrer" className="px-4 pb-3 pt-3 ml-1.5 w-1/5 md:w-1/4 mr-10 md:mr-14 lg:mr-48 xl:mr-72 rounded bg-zinc-800 hover:bg-zinc-700 text-sm leading-relaxed text-neutral-300 hover:text-neutral-400">
+        w-2/3 bg-neutral-800 hover:bg-zinc-700 text-base leading-relaxed text-neutral-300 hover:text-neutral-400" target="_blank" rel="noreferrer" href={IncidentInitial}><span className='font-medium '>Incident Initial Report (.pdf)</span></a>
+        <a href={FinalReport} target="_blank" rel="noreferrer" className="px-4 pb-3 pt-3 ml-1.5 w-1/5 md:w-1/4 mr-10 md:mr-14 lg:mr-48 xl:mr-72 rounded bg-neutral-800 hover:bg-zinc-700 text-sm leading-relaxed text-neutral-300 hover:text-neutral-400">
           <div className='flex-row flex pt-1'>
             <div className='invisible md:visible'>Final Report (.pdf)</div>
             <div className='visible md:invisible order-first'>(2)</div>

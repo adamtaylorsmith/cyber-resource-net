@@ -6,7 +6,7 @@
 const Home = () => {
   return (
     <>
-      <div className='bg-stone-900 h-full'>
+      <div className='bg-zinc-900 h-full'>
         
         <h1 className="mt-0 mb-8 flex justify-center text-green-500 text-2xl md:text-3xl font-bold mx-4 font-mono">Cyber Resource</h1>
 

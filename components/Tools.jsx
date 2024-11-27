@@ -5,7 +5,7 @@
 const Tools = () => {
 
   return (
-    <div className='bg-stone-900 h-full'>
+    <div className='bg-zinc-900 h-full'>
 
       <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Online Tools</h1>
 
@@ -67,13 +67,13 @@ const Tools = () => {
       <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Incident and Response Tools:</h1>
 
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://abuse.ch/"><span className='text-base font-medium text-zinc-300'>Abuse.ch - Sharing malware samples, malware sites, IOCs, botnets, SSLs</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://abuse.ch/"><span className='text-base font-medium text-zinc-300'>Abuse.ch __ Sharing malware samples, malware sites, IOCs, botnets, SSLs</span></a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://app.any.run/">Any.Run Interactive online malware analysis service</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://capesandbox.com/analysis/"><span className='text-base font-medium text-zinc-300'>CAPE Sandbox - Analyze Malware in an isolated environment</span></a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://capesandbox.com/analysis/"><span className='text-base font-medium text-zinc-300'>CAPE Sandbox __ Analyze Malware in an isolated environment</span></a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://dnsdumpster.com/">DNS Recon</a>

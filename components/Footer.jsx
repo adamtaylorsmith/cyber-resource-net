@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <div className='flex justify-center text-sm bg-stone-900 pt-16 pb-4'>
+    <div className='flex justify-center text-sm bg-zinc-900 pt-16 pb-4'>
       <div className='font-bold mb-6 text-zinc-500'>2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adam Taylor Smith&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
       <a href="mailto:is3jlxt0g@mozmail.com" target="_blank" rel="noreferrer" className="">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5" color="#71717A">

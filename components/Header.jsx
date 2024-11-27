@@ -89,7 +89,7 @@ const Header = ({view, setView}) => {
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
-            background-color : #18181b;
+            background-color : #0c0a09
           }
         `}
       </style>
