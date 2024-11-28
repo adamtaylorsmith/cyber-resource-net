@@ -11,7 +11,7 @@ const Applications = () => {
   return ( 
     <div className='bg-zinc-900 h-full'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Applications Official Docs</h1>
+      <h1 className="mt-0 mb-16 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Applications Official Docs</h1>
       
         <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Analysis and Incident Applications:</h1>
 
@@ -179,10 +179,10 @@ const Applications = () => {
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://github.com/OJ/gobuster"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Gobuster</span>&nbsp;__ directory, dns and vhost busting tool</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://github.com/laramies/theHarvester"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>TheHarvester</span>&nbsp;__ OSINT emails, subdomains and names harvester</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://github.com/laramies/theHarvester"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>TheHarvester</span>&nbsp;__ OSINT emails, subdomains and names harvester</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://github.com/vanhauser-thc/thc-hydra"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Hydra</span>&nbsp;__ brute force</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://github.com/vanhauser-thc/thc-hydra"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Hydra</span>&nbsp;__ brute force</a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://nmap.org/book/toc.html"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Nmap</span>&nbsp;__ network mapper</a>
@@ -207,7 +207,7 @@ const Applications = () => {
         </a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://scapy.readthedocs.io/en/latest/introduction.html"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Scapy</span>&nbsp;__ packet manipulation</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://scapy.readthedocs.io/en/latest/introduction.html"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Scapy</span>&nbsp;__ packet manipulation</a>
       </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://github.com/aboul3la/Sublist3r"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Sublist3r</span>&nbsp;__ subdomains enumeration tool</a>

@@ -6,7 +6,7 @@ const Header = ({view, setView}) => {
 
   return (
     <div className="flex items-center justify-between py-8">
-      <button className="text-xl font-bold ml-6 md:ml-12 text-green-500 hover:text-green-300 cursor-pointer mt-1" onClick={() => setView('Home')}><span className="font-mono">Cyber-Resource.net</span></button>
+      <button className="text-xl font-bold ml-6 md:ml-12 text-green-500 hover:text-green-300 cursor-pointer mt-1" onClick={() => setView('Home')}><span className="font-mono">Cyber-Resource</span></button>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -38,7 +38,7 @@ const Header = ({view, setView}) => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-zinc-200 text-lg" onClick={() => {setView('Home');setIsNavOpen(false)}}>Cyber Resource Home</button>
+                <button className="text-zinc-200 text-lg" onClick={() => {setView('Home');setIsNavOpen(false)}}>Cyber-Resource Home</button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
                 <button className=" text-zinc-200 text-lg" onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications&#39; Official Docs</button>

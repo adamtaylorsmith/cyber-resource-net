@@ -24,7 +24,7 @@ const Reports = () => {
   return ( 
     <div className='bg-zinc-900 h-full'>
 
-      <h1 className="mt-0 mb-12 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Example Reports</h1>
+      <h1 className="mt-0 mb-16 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Example Reports</h1>
 
       <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Analysis and Preparation Reports:</h1>
 
