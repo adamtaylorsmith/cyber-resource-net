@@ -19,7 +19,7 @@ const Resources = () => {
 
       <h1 className="mt-0 mb-16 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Online Resources</h1>
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Analysis and Preparation Resources:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Analysis and Preparation Resources:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.scamwatch.gov.au/"><span className='text-base font-medium text-zinc-300'>Australia Anti-Scam Centre</span></a>
@@ -71,7 +71,7 @@ const Resources = () => {
 
 {/* ***************************************************************************************************************************88 */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Coding and Operating System Resources:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Coding and Operating System Resources:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://generatedata.com/"><span className='text-base font-medium text-zinc-300'>Generate Test Data</span></a>
@@ -101,7 +101,7 @@ const Resources = () => {
 
 {/* ****************************************************************************************************************************** */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Incident and Response Resources:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Incident and Response Resources:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.cyber.gc.ca/en/guidance/ransomware-playbook-itsm00099"><span className='text-base font-medium text-zinc-300'>Ransomware Playbook</span></a>
@@ -113,7 +113,7 @@ const Resources = () => {
 
 {/* ***************************************************************************************************************************88 */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ National Institute of Standards and Technology Resources:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>NIST Resources:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.nist.gov/cyberframework/assessment-auditing-resources"><span className='text-base font-medium text-zinc-300'>NIST Assessment and Auditing</span></a>
@@ -142,7 +142,7 @@ const Resources = () => {
 
 {/* ****************************************************************************************************************************** */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Organizational Resources:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Organizational Resources:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.cisecurity.org/"><span className='text-base font-medium text-zinc-300'>Center For Internet Security</span></a>
@@ -168,7 +168,7 @@ const Resources = () => {
 
 {/* ****************************************************************************************************************************** */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Threat Resources:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Threat Resources:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://github.com/center-for-threat-informed-defense/adversary_emulation_library"><span className='text-base font-medium text-zinc-300'>Adversary Emulation Plans Library</span></a>
@@ -230,7 +230,7 @@ const Resources = () => {
       </div> 
 */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Vulnerability Resources:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Vulnerability Resources:</h1>
 
       {/* <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml"><span className='text-base font-medium text-zinc-300'>Apple Security Releases</span></a>

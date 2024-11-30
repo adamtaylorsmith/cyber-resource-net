@@ -13,7 +13,7 @@ const Applications = () => {
 
       <h1 className="mt-0 mb-16 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Applications Official Docs</h1>
       
-        <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Analysis and Incident Applications:</h1>
+        <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Analysis and Incident Applications:</h1>
 
         <div className="py-1.5">
           <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://exiftool.org/"><span className='text-base font-medium text-zinc-200'>ExifTool</span>&nbsp;__ read, write and edit meta information</a>
@@ -71,7 +71,7 @@ const Applications = () => {
 
 {/* ****************************************************************************************************************************** */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Coding Applications:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Coding Applications:</h1>
       
       <div className="py-1.5">
           <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://httpd.apache.org/"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Apache Http Server</span></a>
@@ -98,7 +98,7 @@ const Applications = () => {
       
 {/* ****************************************************************************************************************************** */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ IDS and SIEM Applications:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>IDS and SIEM Applications:</h1>
 
         <div className="py-1.5 flex-row flex flex-nowrap">
           <a className="rounded px-4 md:px-6 py-3 
@@ -163,7 +163,7 @@ const Applications = () => {
         </div>
 
 {/* ****************************************************************************************************************************** */}
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>__ Pentesting Applications:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Pentesting Applications:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://github.com/angryip/ipscan"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Angry IP</span>&nbsp;__ network scanner</a>
@@ -188,10 +188,10 @@ const Applications = () => {
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://nmap.org/book/toc.html"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Nmap</span>&nbsp;__ network mapper</a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Payloads All The Things</span>&nbsp;__ payloads and bypasses for web application security</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Payloads All The Things</span></a>
       </div>
       <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://docs.pwntools.com/en/stable/"><span className='text-base font-medium'>Pwntools</span>&nbsp;__ CTF framework and exploit development library</a>
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://docs.pwntools.com/en/stable/"><span className='text-base font-medium'>Pwntools __ CTF framework and exploit development library</span></a>
       </div>
       <div className="py-1.5 flex-row flex flex-nowrap">
         <a className="rounded px-4 md:px-6 py-3 
