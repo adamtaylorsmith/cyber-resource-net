@@ -38,19 +38,19 @@ const Header = ({view, setView}) => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-zinc-200 text-base" onClick={() => {setView('Home');setIsNavOpen(false)}}>Cyber-Resource Home</button>
+                <button className="text-base" onClick={() => {setView('Home');setIsNavOpen(false)}}><span className={(view == 'Home' ? 'text-blue-400' : 'text-zinc-200')}>Cyber-Resource Home</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className=" text-zinc-200 text-base" onClick={() => {setView('Applications');setIsNavOpen(false)}}>Applications&#39; Official Docs</button>
+                <button className="text-base" onClick={() => {setView('Applications');setIsNavOpen(false)}}><span className={(view == 'Applications' ? 'text-blue-400' : 'text-zinc-200')}>Applications Official Docs</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className=" text-zinc-200 text-base" onClick={() => {setView('Reports');setIsNavOpen(false)}}>Example Reports</button>
+                <button className="text-base" onClick={() => {setView('Reports');setIsNavOpen(false)}}><span className={(view == 'Reports' ? 'text-blue-400' : 'text-zinc-200')}>Example Reports</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className=" text-zinc-200 text-base" onClick={() => {setView('Resources');setIsNavOpen(false)}}>Online Resources</button>
+                <button className="text-base" onClick={() => {setView('Resources');setIsNavOpen(false)}}><span className={(view == 'Resources' ? 'text-blue-400' : 'text-zinc-200')}>Online Resources</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-zinc-200 text-base" onClick={() => {setView('Tools');setIsNavOpen(false)}}>Online Tools</button>
+                <button className="text-base" onClick={() => {setView('Tools');setIsNavOpen(false)}}><span className={(view == 'Tools' ? 'text-blue-400' : 'text-zinc-200')}>Online Tools</span></button>
               </li>
             </ul>
           </div>
