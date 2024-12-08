@@ -193,7 +193,10 @@ const Applications = () => {
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://docs.pwntools.com/en/stable/"><span className='text-base font-medium'>Pwntools __ CTF framework and exploit development library</span></a>
       </div>
-      <div className="py-1.5 flex-row flex flex-nowrap">
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://docs.pwntools.com/en/stable/"><span className='text-base font-medium'>Pwntools __ CTF framework and exploit development library</span></a>
+      </div>
+      {/* <div className="py-1.5 flex-row flex flex-nowrap">
         <a className="rounded px-4 md:px-6 py-3 
         ml-10 md:ml-14 lg:ml-48 xl:ml-72 
         w-2/3 bg-neutral-800 hover:bg-zinc-700 text-base leading-relaxed text-zinc-200 hover:text-zinc-300" target="_blank" rel="noreferrer" href="https://docs.suricata.io/en/latest/index.html">
@@ -205,7 +208,7 @@ const Applications = () => {
             <div className='visible md:invisible order-first'>(2)</div>
           </div>
         </a>
-      </div>
+      </div> */}
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://scapy.readthedocs.io/en/latest/introduction.html"><span className='text-base font-medium text-zinc-200 hover:text-zinc-300'>Scapy</span>&nbsp;__ packet manipulation</a>
       </div>
