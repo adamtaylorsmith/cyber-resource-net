@@ -193,9 +193,6 @@ const Applications = () => {
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://docs.pwntools.com/en/stable/"><span className='text-base font-medium'>Pwntools __ CTF framework and exploit development library</span></a>
       </div>
-      <div className="py-1.5">
-        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 text-base leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-zinc-300 flex" target="_blank" rel="noreferrer" href="https://docs.pwntools.com/en/stable/"><span className='text-base font-medium'>Pwntools __ CTF framework and exploit development library</span></a>
-      </div>
       {/* <div className="py-1.5 flex-row flex flex-nowrap">
         <a className="rounded px-4 md:px-6 py-3 
         ml-10 md:ml-14 lg:ml-48 xl:ml-72 

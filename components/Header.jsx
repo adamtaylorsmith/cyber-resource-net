@@ -6,7 +6,7 @@ const Header = ({view, setView}) => {
 
   return (
     <div className="flex items-center justify-between py-8">
-      <button className="text-xl font-bold ml-6 md:ml-12 text-green-500 hover:text-green-300 cursor-pointer mt-1" onClick={() => setView('Home')}><span className="font-mono">Cyber-Resource</span></button>
+      <button className="text-xl font-bold ml-6 md:ml-12 text-green-500 hover:text-green-300 cursor-pointer mt-1" onClick={() => setView('Home')}><span className="font-mono">Cyber-Resource.net</span></button>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -41,7 +41,7 @@ const Header = ({view, setView}) => {
                 <button className="text-base" onClick={() => {setView('Home');setIsNavOpen(false)}}><span className={(view == 'Home' ? 'text-blue-400' : 'text-zinc-200')}>Cyber-Resource Home</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base" onClick={() => {setView('Applications');setIsNavOpen(false)}}><span className={(view == 'Applications' ? 'text-blue-400' : 'text-zinc-200')}>Applications Official Docs</span></button>
+                <button className="text-base" onClick={() => {setView('Applications');setIsNavOpen(false)}}><span className={(view == 'Applications' ? 'text-blue-400' : 'text-zinc-200')}>Applications Docs</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
                 <button className="text-base" onClick={() => {setView('Reports');setIsNavOpen(false)}}><span className={(view == 'Reports' ? 'text-blue-400' : 'text-zinc-200')}>Example Reports</span></button>
