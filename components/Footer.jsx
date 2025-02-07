@@ -1,5 +1,5 @@
 // import React from 'react'
-import cup from '../src/images/coffee.png'
+import cup from '../src/images/coffee2.png'
 
 export default function Footer() {
   return (

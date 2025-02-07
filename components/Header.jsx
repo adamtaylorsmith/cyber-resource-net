@@ -38,10 +38,10 @@ const Header = ({view, setView}) => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base" onClick={() => {setView('Home');setIsNavOpen(false)}}><span className={(view == 'Home' ? 'text-blue-400' : 'text-zinc-200')}>Cyber-Resource Home</span></button>
+                <button className="text-base" onClick={() => {setView('Home');setIsNavOpen(false)}}><span className={(view == 'Home' ? 'text-blue-400' : 'text-zinc-200')}>Cyber-Resource.net</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base" onClick={() => {setView('Applications');setIsNavOpen(false)}}><span className={(view == 'Applications' ? 'text-blue-400' : 'text-zinc-200')}>Applications Docs</span></button>
+                <button className="text-base" onClick={() => {setView('Applications');setIsNavOpen(false)}}><span className={(view == 'Applications' ? 'text-blue-400' : 'text-zinc-200')}>Cyber Application Docs</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
                 <button className="text-base" onClick={() => {setView('Reports');setIsNavOpen(false)}}><span className={(view == 'Reports' ? 'text-blue-400' : 'text-zinc-200')}>Example Reports</span></button>
