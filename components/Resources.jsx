@@ -74,6 +74,9 @@ const Resources = () => {
       <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Coding and Operating System Resources:</h1>
 
       <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://overapi.com/">All Cheat Sheets A-Z</a>
+      </div>
+      <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://generatedata.com/"><span className='text-base font-medium text-zinc-300'>Generate Test Data</span></a>
       </div>
       <div className="py-1.5">
