@@ -30,7 +30,7 @@ const Reports = () => {
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200" target="_blank" rel="noreferrer" href="https://github.com/juliocesarfort/public-pentesting-reports"><span className='text-base font-medium text-zinc-300'>Public Penetration Test Reports</span></a>
       </div>
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Analysis and Preparation Reports:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-300'>Analysis and Preparation Reports:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href={AccessControl}><span className='text-base font-medium text-zinc-300'>Access Controls Worksheet</span>&nbsp;&nbsp;(.pdf)</a>
@@ -81,7 +81,7 @@ const Reports = () => {
 
 {/* ****************************************************************************************************************************** */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Incident and Response Reports:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-300'>Incident and Response Reports:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 text-neutral-300 hover:text-neutral-400 flex font-medium" target="_blank" rel="noreferrer" href={AnalyzeNetworkAttack}><span className='text-base font-medium text-zinc-300'>Analyze a Network Attack (.pdf)</span></a>

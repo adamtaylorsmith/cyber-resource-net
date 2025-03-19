@@ -13,7 +13,7 @@ const Tools = () => {
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://sectools.org/?sort=rating"><span className='text-base font-medium text-zinc-300'>Top 125 Network Security Tools</span></a>
       </div>
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Analysis Tools:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-300'>Analysis Tools:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://www.cisa.gov/resources-tools/resources/free-cybersecurity-services-and-tools"><span className='text-base font-medium text-zinc-300'>CISA Services and Tools</span></a>
@@ -50,6 +50,10 @@ const Tools = () => {
           </div>
         </a>
       </div>
+      {/*   */}
+      <div className="py-1.5">
+        <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.grc.com/x/ne.dll?bh0bkyd2">ShieldsUP! __ Port Authority Vulnerability Profiling</a>
+      </div>
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200 text-base" target="_blank" rel="noreferrer" href="https://www.shodan.io/">Shodan __ Search engine for internet-connected devices</a>
       </div>
@@ -65,7 +69,7 @@ const Tools = () => {
 
 {/* ****************************************************************************************************************************** */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Incident and Response Tools:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-300'>Incident and Response Tools:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://abuse.ch/"><span className='text-base font-medium text-zinc-300'>Abuse.ch __ Sharing malware samples, malware sites, IOCs, botnets, SSLs</span></a>
@@ -119,7 +123,7 @@ const Tools = () => {
 
 {/* ****************************************************************************************************************************** */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Pentesting Tools:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-300'>Pentesting Tools:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://github.com/arch3rPro/PentestTools"><span className='text-base font-medium text-zinc-300'>Awesome Pentest Tools Collection</span></a>
@@ -159,7 +163,7 @@ const Tools = () => {
 
       {/* ****************************************************************************************************************************** */}
 
-      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-400'>Vulnerability Tools:</h1>
+      <h1 className='mx-10 md:mx-14 lg:mx-48 xl:mx-72 pb-4 leading-relaxed text-xl font-medium text-blue-300'>Vulnerability Tools:</h1>
 
       <div className="py-1.5">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator"><span className='text-base font-medium text-zinc-300'>CVSS Common Vulnerability Scoring System Calculator</span></a>
