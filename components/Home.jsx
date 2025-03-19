@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <div className='bg-zinc-900 h-full'>
         
-        <h1 className="mt-0 mb-8 flex justify-center text-green-500 text-2xl md:text-3xl font-bold mx-4 font-mono">Cyber-Resource</h1>
+        <h1 className="mt-0 mb-8 flex justify-center text-green-400 text-2xl md:text-3xl font-bold mx-4 font-mono">Cyber-Resource</h1>
 
         <h1 className="mb-10 flex justify-center text-xl mx-8 md:mx-14 lg:mx-48 xl:mx-72 text-blue-300 font-mono">Cybersecurity Applications, Reports, Resources and Tools</h1>
 

@@ -24,7 +24,7 @@ const Reports = () => {
   return ( 
     <div className='bg-zinc-900 h-full'>
 
-      <h1 className="mt-0 mb-16 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Example Reports</h1>
+      <h1 className="mt-0 mb-16 flex justify-center text-green-400 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Example Reports</h1>
 
       <div className="py-1.5 mb-12">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-neutral-800 hover:bg-zinc-700 hover:text-zinc-300 flex font-medium text-zinc-200" target="_blank" rel="noreferrer" href="https://github.com/juliocesarfort/public-pentesting-reports"><span className='text-base font-medium text-zinc-300'>Public Penetration Test Reports</span></a>

@@ -7,7 +7,7 @@ const Tools = () => {
   return (
     <div className='bg-zinc-900 h-full'>
 
-      <h1 className="mt-0 mb-16 flex justify-center text-green-500 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Online Tools</h1>
+      <h1 className="mt-0 mb-16 flex justify-center text-green-400 text-xl md:text-2xl font-bold mx-4 font-mono">Cybersecurity Online Tools</h1>
 
       <div className="py-1.5 mb-12">
         <a className="px-4 md:px-6 mx-10 md:mx-14 lg:mx-48 xl:mx-72 py-3 leading-relaxed rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-400 flex font-medium" target="_blank" rel="noreferrer" href="https://sectools.org/?sort=rating"><span className='text-base font-medium text-zinc-300'>Top 125 Network Security Tools</span></a>
