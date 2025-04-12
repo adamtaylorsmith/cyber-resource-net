@@ -13,7 +13,7 @@ const Home = () => {
         <h1 className="mb-10 flex justify-center text-xl mx-8 md:mx-14 lg:mx-48 xl:mx-72 text-blue-300 font-mono">Cybersecurity Applications, Reports, Resources and Tools</h1>
 
         <div className="mx-8 md:mx-14 lg:mx-48 xl:mx-72 pb-16 lg:pb-24 text-base text-zinc-200 leading-7">
-          I created this website to organize and showcase the wealth of resources I encountered during my cybersecurity studies. The applications, reports, resources and tools featured here were curated while pursuing the following technical certifications,
+          I created this website to organize and showcase the wealth of resources I encountered during my cybersecurity studies. The applications, reports, resources and tools featured here were collected while pursuing the following technical certifications,
           <br/><br/><a className="font-medium hover:text-zinc-400" href="https://www.comptia.org/certifications/network" target="_blank" rel="noreferrer">CompTIA Network+</a><br/><a className="font-medium hover:text-zinc-400" target="_blank" rel="noreferrer" href="https://www.comptia.org/certifications/security">CompTIA Security+</a><br/><a className="font-medium hover:text-zinc-400" target="_blank" rel="noreferrer" href="https://grow.google/certificates/cybersecurity/">Google Cybersecurity Analyst</a>
         </div>
 
