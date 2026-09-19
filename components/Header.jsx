@@ -6,7 +6,7 @@ const Header = ({view, setView}) => {
 
   return (
     <div className="flex items-center justify-between py-8">
-      <button className="text-xl font-bold ml-6 md:ml-12 text-green-400 hover:text-green-300 cursor-pointer mt-1" onClick={() => setView('Home')}><span className="font-mono">Cyber-Resource.net</span></button>
+      <button className="text-2xl font-bold ml-6 md:ml-12 text-green-400 hover:text-green-300 cursor-pointer mt-1" onClick={() => setView('Home')}><span className="font-mono">Cyber-Resource</span></button>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -38,19 +38,19 @@ const Header = ({view, setView}) => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base" onClick={() => {setView('Home');setIsNavOpen(false)}}><span className={(view == 'Home' ? 'text-blue-300' : 'text-zinc-200')}>Cyber-Resource.net</span></button>
+                <button className="text-lg" onClick={() => {setView('Home');setIsNavOpen(false)}}><span className={(view == 'Home' ? 'text-blue-300' : 'text-zinc-200')}>Cyber-Resource home</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base" onClick={() => {setView('Applications');setIsNavOpen(false)}}><span className={(view == 'Applications' ? 'text-blue-300' : 'text-zinc-200')}>Cyber Application Docs</span></button>
+                <button className="text-lg" onClick={() => {setView('Applications');setIsNavOpen(false)}}><span className={(view == 'Applications' ? 'text-blue-300' : 'text-zinc-200')}>Application Docs</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base" onClick={() => {setView('Reports');setIsNavOpen(false)}}><span className={(view == 'Reports' ? 'text-blue-300' : 'text-zinc-200')}>Example Reports</span></button>
+                <button className="text-lg" onClick={() => {setView('Reports');setIsNavOpen(false)}}><span className={(view == 'Reports' ? 'text-blue-300' : 'text-zinc-200')}>Example Reports</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base" onClick={() => {setView('Resources');setIsNavOpen(false)}}><span className={(view == 'Resources' ? 'text-blue-300' : 'text-zinc-200')}>Online Resources</span></button>
+                <button className="text-lg" onClick={() => {setView('Resources');setIsNavOpen(false)}}><span className={(view == 'Resources' ? 'text-blue-300' : 'text-zinc-200')}>Online Resources</span></button>
               </li>
               <li className="border-b border-gray-400 my-6 cursor-pointer">
-                <button className="text-base" onClick={() => {setView('Tools');setIsNavOpen(false)}}><span className={(view == 'Tools' ? 'text-blue-300' : 'text-zinc-200')}>Online Tools</span></button>
+                <button className="text-lg" onClick={() => {setView('Tools');setIsNavOpen(false)}}><span className={(view == 'Tools' ? 'text-blue-300' : 'text-zinc-200')}>Online Tools</span></button>
               </li>
             </ul>
           </div>
